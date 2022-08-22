@@ -33,7 +33,7 @@ function Navbar() {
         " id='menu'>
           <div className="lg:flex lg:justify-between">
             <div className="flex justify-center text-center lg:w-full lg:font-black text-2xl">
-              <ul className="lg:flex lg:space-x-4">
+              <ul className="lg:flex lg:space-x-2 xl:space-x-4">
                 <NavLink to="/" className="lg:px-3">
                   <li className="py-1.5">Home</li>
                 </NavLink>
@@ -74,7 +74,7 @@ function Navbar() {
                 </NavLink>
               </ul>
             </div>
-            <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max">
+            <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max text-xl">
               <ButtonNav toLink="invesment" text="Start Your Own GYM"/>
               <ButtonNav toLink="login" text="LOGIN"/>
             </div>

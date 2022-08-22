@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <div className="bg-blue-primary text-white font-Poppins pt-4 pb-8 text-base">
-        <div className="text-center font-BebasNeue tracking-widest text-lg">
+        <div className="text-center font-BebasNeue tracking-widest text-lg my-2">
           <p><i className="icofont-instagram"></i> Follow US ON @FITNESSWORKS.ID</p>
         </div>
         <div className="py-4 flex justify-start xl:justify-center overflow-x-auto no-scrollbar">
