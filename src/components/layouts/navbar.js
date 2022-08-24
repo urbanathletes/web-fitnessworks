@@ -18,7 +18,7 @@ function Navbar() {
         relative
       ">
         <div className="flex justify-center items-center py-2 relative">
-          <img src="./image/LogoFitnessworkNavBar.png" alt="FitnessWorkc" className="h-10" />
+          <img src="/image/LogoFitnessworkNavBar.png" alt="FitnessWorkc" className="h-10" />
           <div className="absolute right-0 top-0 bottom-0 mr-3 flex items-center lg:hidden">
             <button id="hamburger" onClick={hamburger} name="hamburger" type="button">
               <span className="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
@@ -75,7 +75,7 @@ function Navbar() {
               </ul>
             </div>
             <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max text-xl">
-              <ButtonNav toLink="invesment" text="Start Your Own GYM"/>
+              <ButtonNav toLink="invesment/" text="Start Your Own GYM"/>
               <ButtonNav toLink="login" text="LOGIN"/>
             </div>
           </div>

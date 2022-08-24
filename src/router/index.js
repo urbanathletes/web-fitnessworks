@@ -10,6 +10,10 @@ import Shop from '../views/Shop';
 import Tnc from '../views/Tnc';
 import Workouts from '../views/Workouts';
 import Investment from '../views/investment';
+import OurFounder from '../views/investment/OurFounder';
+import MarketStrategy from '../views/investment/MarketStrategy';
+import Presentation from '../views/investment/Presentation';
+import NotFont from '../views/NotFont';
 
 function Router(props) {
   return (
@@ -24,9 +28,16 @@ function Router(props) {
         <Route path="workouts" element={<Workouts />} />
       </Route>
       
-      <Route element={<AppLayoutInves />}>
-        <Route path="invesment" element={<Investment />} />
+      <Route path="invesment" element={<AppLayoutInves />}>
+        <Route index element={<Investment />} />
+        <Route path="our-foinder" element={<OurFounder />} />
+        <Route path="market-strategy" element={<MarketStrategy />} />
+        <Route path="presentation" element={<Presentation />} />
+        {/* <Route path="invesment"} >
+        </Route> */}
       </Route>
+      
+      <Route path="*" element={<NotFont />} />
     </Routes>
   )
 }

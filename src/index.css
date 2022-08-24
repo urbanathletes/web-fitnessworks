@@ -66,3 +66,11 @@ code {
 .font-judul {
   @apply font-BebasNeue font-black
 }
+
+.btn-active {
+  @apply border-b-2 border-yellow-primary text-blue-primary
+}
+
+.img-active {
+  @apply opacity-100
+}
