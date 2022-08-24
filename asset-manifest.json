@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-fitnessworks/static/css/main.800ce462.css",
+    "main.js": "/web-fitnessworks/static/js/main.4c626722.js",
+    "static/media/Poppins-Medium.otf": "/web-fitnessworks/static/media/Poppins-Medium.33c3fb422bf7f1eb71db.otf",
+    "static/media/FontsFree-Net-BebasNeueRegular.otf": "/web-fitnessworks/static/media/FontsFree-Net-BebasNeueRegular.b9255f95feaf045c8a5c.otf",
+    "index.html": "/web-fitnessworks/index.html",
+    "main.800ce462.css.map": "/web-fitnessworks/static/css/main.800ce462.css.map",
+    "main.4c626722.js.map": "/web-fitnessworks/static/js/main.4c626722.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800ce462.css",
+    "static/js/main.4c626722.js"
+  ]
+}
