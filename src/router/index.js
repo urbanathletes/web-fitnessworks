@@ -30,7 +30,7 @@ function Router(props) {
       
       <Route path="invesment" element={<AppLayoutInves />}>
         <Route index element={<Investment />} />
-        <Route path="our-foinder" element={<OurFounder />} />
+        <Route path="our-founder" element={<OurFounder />} />
         <Route path="market-strategy" element={<MarketStrategy />} />
         <Route path="presentation" element={<Presentation />} />
         {/* <Route path="invesment"} >

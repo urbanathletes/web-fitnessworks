@@ -51,7 +51,7 @@ function Navbar() {
                           OVERVIEW
                         </li>
                       </NavLink>
-                      <NavLink onClick={hamburger} to="our-foinder">
+                      <NavLink onClick={hamburger} to="our-founder">
                         <li>
                           OUR FOUNDER & HISTORY
                         </li>
