@@ -8,18 +8,18 @@ function Footer() {
           <p><i className="icofont-instagram"></i> Follow US ON @FITNESSWORKS.ID</p>
         </div>
         <div className="py-4 flex justify-start xl:justify-center overflow-x-auto no-scrollbar">
-          <img src="./image/Footer/Footer_1.jpg" alt="UA Footer" className="w-60" />
-          <img src="./image/Footer/Footer_2.jpg" alt="UA Footer" className="w-60" />
-          <img src="./image/Footer/Footer_3.jpg" alt="UA Footer" className="w-60" />
-          <img src="./image/Footer/Footer_4.jpg" alt="UA Footer" className="w-60" />
-          <img src="./image/Footer/Footer_5.jpg" alt="UA Footer" className="w-60" />
-          <img src="./image/Footer/Footer_6.jpg" alt="UA Footer" className="w-60" />
+          <img src="/image/Footer/Footer_1.jpg" alt="UA Footer" className="w-60" />
+          <img src="/image/Footer/Footer_2.jpg" alt="UA Footer" className="w-60" />
+          <img src="/image/Footer/Footer_3.jpg" alt="UA Footer" className="w-60" />
+          <img src="/image/Footer/Footer_4.jpg" alt="UA Footer" className="w-60" />
+          <img src="/image/Footer/Footer_5.jpg" alt="UA Footer" className="w-60" />
+          <img src="/image/Footer/Footer_6.jpg" alt="UA Footer" className="w-60" />
         </div>
         <div className="container mx-auto font-light">
           <div className="border-b-4 border-white"></div>
           <div className="md:flex md:justify-around items-center lg:items-start">
             <div className="max-w-xs mx-auto md:mx-0 space-y-4 py-4">
-              <img src="./image/LogoFitnessworkPutih.png" alt="UA Footer" className="w-60" />
+              <img src="/image/LogoFitnessworkPutih.png" alt="UA Footer" className="w-60" />
               <p>Fitnessworks is a new experience in fitness. we are the first gym & fitness Centre with technology based, in Indonesia.</p>
               <ul className="space-y-4">
                 <li><i className="mr-4 icofont-google-map"></i>View Location</li>
