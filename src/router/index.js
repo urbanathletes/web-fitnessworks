@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import AppLayout from '../components/AppLayout';
 import AppLayoutInves from '../components/AppLayoutInves';
 import AppLayoutBlank from '../components/AppLayoutBlank';
+import FaqsLayout from '../components/FaqsLayout';
 import Home from '../views/Home';
 import About from '../views/About';
 import Article from '../views/Article';
@@ -16,7 +17,8 @@ import Presentation from '../views/investment/Presentation';
 import NotFont from '../views/NotFont';
 import CTnc from '../views/confirm/CTnc';
 import MembershipForm from '../views/confirm/MembershipForm';
-import Faqs from '../views/Faqs';
+import Faqs from '../views/faqs';
+import Faq from '../views/faqs/Faq';
 
 function Router(props) {
   return (
@@ -25,11 +27,14 @@ function Router(props) {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="article" element={<Article />} />
-        <Route path="faqs" element={<Faqs />} />
         <Route path="tnc" element={<Tnc />} />
         <Route path="workouts" element={<Workouts />} />
         <Route path="shop" element={<Shop />} />
         <Route path="membership-form" element={<MembershipForm />} />
+        <Route path="faqs" element={<FaqsLayout />} >
+          <Route index element={<Faqs />} />
+          <Route path="faq" element={<Faq />} />
+        </Route>
       </Route>
       <Route path='tnc' element={<AppLayout />} >
         <Route index element={<Tnc />} />

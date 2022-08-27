@@ -54,9 +54,9 @@ function Navbar() {
                           About Us
                         </li>
                       </NavLink>
-                      <NavLink onClick={hamburger} to="faq">
+                      <NavLink onClick={hamburger} to="faqs">
                         <li>
-                          faq
+                          Faq
                         </li>
                       </NavLink>
                       <NavLink onClick={hamburger} to="tnc">

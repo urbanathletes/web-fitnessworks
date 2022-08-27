@@ -1,24 +1,16 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function Faqs() {
   return (
     <div>
-      <div className="flex justify-center lg:max-h-screen overflow-hidden relative h-72">
-        <img src="/image/inves/OurFounder.jpg" alt="Fitnesswork Presentation" className="object-cover object-center h-full sm:min-w-full"/>
-        <div className="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-center bg-blue-primary bg-opacity-80">
-          <h1 className="font-judul text-5xl text-center text-white">FITNESSWORK HELP CENTRE</h1>
-          <div className="flex justify-center text-blue-primary my-4 px-4 w-full">
-            <input type="text" className="w-full md:w-96 px-2 py-1" placeholder='ASK a Question….'/>
-            <button className="bg-white mx-1 px-6">SARTCH</button>
-          </div>
-        </div>
-      </div>
-
       <div className="container">
         <div className="flex justify-center">
           <div className="text-blue-primary mx-auto text-center space-y-3 py-4 lg:mx-0 lg:w-60">
-            <img src="/image/faqs/Before_you_join.png" alt="Fitnesswork faq" className="bg-yellow-primary bg-opacity-75 p-4 rounded-xl w-20 lg:mx-auto"/>
-            <p>FAQ</p>
+            <Link to="faq">
+              <img src="/image/faqs/Before_you_join.png" alt="Fitnesswork faq" className="bg-yellow-primary bg-opacity-75 p-4 rounded-xl w-20 lg:mx-auto"/>
+              <p>FAQ</p>
+            </Link>
           </div>
           <div className="text-blue-primary mx-auto text-center space-y-3 py-4 lg:mx-0 lg:w-60">
             <img src="/image/faqs/Other_useful_info.png" alt="Fitnesswork faq" className="bg-yellow-primary bg-opacity-75 p-4 rounded-xl w-20 lg:mx-auto"/>
