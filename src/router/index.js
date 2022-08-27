@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route } from "react-router-dom";
 import AppLayout from '../components/AppLayout';
 import AppLayoutInves from '../components/AppLayoutInves';
+import AppLayoutBlank from '../components/AppLayoutBlank';
 import Home from '../views/Home';
 import About from '../views/About';
 import Article from '../views/Article';
@@ -14,6 +15,8 @@ import OurFounder from '../views/investment/OurFounder';
 import MarketStrategy from '../views/investment/MarketStrategy';
 import Presentation from '../views/investment/Presentation';
 import NotFont from '../views/NotFont';
+import CTnc from '../views/confirm/CTnc';
+import MembershipForm from '../views/confirm/MembershipForm';
 
 function Router(props) {
   return (
@@ -23,9 +26,10 @@ function Router(props) {
         <Route path="about" element={<About />} />
         <Route path="article" element={<Article />} />
         <Route path="faq" element={<Faq />} />
-        <Route path="shop" element={<Shop />} />
         <Route path="tnc" element={<Tnc />} />
         <Route path="workouts" element={<Workouts />} />
+        <Route path="shop" element={<Shop />} />
+        <Route path="membership-form" element={<MembershipForm />} />
       </Route>
       
       <Route path="invesment" element={<AppLayoutInves />}>
@@ -35,6 +39,10 @@ function Router(props) {
         <Route path="presentation" element={<Presentation />} />
         {/* <Route path="invesment"} >
         </Route> */}
+      </Route>
+
+      <Route path="confirm" element={<AppLayoutBlank />}>
+        <Route index element={<CTnc />} />
       </Route>
       
       <Route path="*" element={<NotFont />} />
