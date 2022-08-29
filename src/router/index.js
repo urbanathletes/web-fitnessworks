@@ -9,7 +9,6 @@ import About from '../views/About';
 import Article from '../views/Article';
 import Shop from '../views/Shop';
 import Tnc from '../views/Tnc';
-import Workouts from '../views/Workouts';
 import Investment from '../views/investment';
 import OurFounder from '../views/investment/OurFounder';
 import MarketStrategy from '../views/investment/MarketStrategy';
@@ -22,6 +21,12 @@ import Faq from '../views/faqs/Faq';
 import FaqLayouts from '../components/FaqLayouts';
 import ClubAndFasility from '../views/faqs/ClubAndFasility';
 import SafetyHealth from '../views/faqs/SafetyHealth';
+import Workouts from '../views/workouts/Workouts';
+import WeightLost from '../views/workouts/WeightLost';
+
+// function WorkoutsLayout() {
+  
+// }
 
 function Router(props) {
   return (
@@ -31,7 +36,10 @@ function Router(props) {
         <Route path="about" element={<About />} />
         <Route path="article" element={<Article />} />
         <Route path="tnc" element={<Tnc />} />
-        <Route path="workouts" element={<Workouts />} />
+        <Route path="workouts"  >
+          <Route index element={<Workouts />} />
+          <Route path="weight-lost" element={<WeightLost />} />
+        </Route>
         <Route path="shop" element={<Shop />} />
         <Route path="membership-form" element={<MembershipForm />} />
         <Route path="faqs" element={<FaqsLayout />} >
