@@ -307,7 +307,7 @@ function Investment() {
       <div className="bg-cover bg-center object-cover object-center relative my-6" style={bgInves1}>
         {/* <div className="bg-blue-primary absolute top-0 bottom-0 right-0 left-0 bg-opacity-50 -z-10"></div> */}
         <div className="text-center text-white max-w-2xl mx-auto py-6">
-          <img src="./image/LogoFitnessworkPutih.png" alt="Fitnessworks" className="h-12 md:h-20 my-6 mx-auto z-20" />
+          <img src="/image/LogoFitnessworkPutih.png" alt="Fitnessworks" className="h-12 md:h-20 my-6 mx-auto z-20" />
           <p>Due to relatively high capex & opex in professionally managed gym, resulting high membership price, currently in Indonesia there are no professional fitness centre that can accommodate the gap of middle income society market in Indonesia. Fitnessworks business models can solve this problem by bringing low capex and low operational cost, and more affordable fitness center to the market.</p>
           <div className="mx-2 my-6">
             <Link to="/invesment">

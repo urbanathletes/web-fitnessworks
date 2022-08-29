@@ -19,6 +19,9 @@ import CTnc from '../views/confirm/CTnc';
 import MembershipForm from '../views/confirm/MembershipForm';
 import Faqs from '../views/faqs';
 import Faq from '../views/faqs/Faq';
+import FaqLayouts from '../components/FaqLayouts';
+import ClubAndFasility from '../views/faqs/ClubAndFasility';
+import SafetyHealth from '../views/faqs/SafetyHealth';
 
 function Router(props) {
   return (
@@ -33,7 +36,11 @@ function Router(props) {
         <Route path="membership-form" element={<MembershipForm />} />
         <Route path="faqs" element={<FaqsLayout />} >
           <Route index element={<Faqs />} />
-          <Route path="faq" element={<Faq />} />
+          <Route element={<FaqLayouts />}>
+            <Route path="faq" element={<Faq />} />
+            <Route path="club-and-fasility" element={<ClubAndFasility />} />
+            <Route path="safety-health" element={<SafetyHealth />} />
+          </Route>
         </Route>
       </Route>
       <Route path='tnc' element={<AppLayout />} >
