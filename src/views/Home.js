@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import ButtonLink from '../components/ButtonLink'
 
 function Home() {
   return (
@@ -25,9 +27,9 @@ function Home() {
               <div className="max-w-sm text-center text-white tracking-wider">
                 <h2 className="font-BebasNeue text-2xl text-yellow-primary mb-4">Fitness Classes Included</h2>
                 <p>We’re making fitness fun with our exciting range of fitness classes.</p>
-                <button className="border border-white px-4 py-1 mt-8">
-                  VIEW MORE
-                </button>
+                <div className="flex justify-center">
+                  <ButtonLink text="VIEW MORE" link="/workouts" />
+                </div>
               </div>
             </div>
           </div>
@@ -37,9 +39,9 @@ function Home() {
               <div className="max-w-sm text-center text-white tracking-wider">
                 <h2 className="font-BebasNeue text-2xl text-yellow-primary mb-4">OUR Personal TraiNER</h2>
                 <p>Wherever you are on your fitness journey, a personal trainer can help you reach your goals.</p>
-                <button className="border border-white px-4 py-1 mt-8">
-                  VIEW MORE
-                </button>
+                <div className="flex justify-center">
+                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                </div>
               </div>
             </div>
           </div>
@@ -58,15 +60,13 @@ function Home() {
             <img src="/image/home/Icon_1.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
           <div className="text-blue-primary font-BebasNeue text-2xl font-black">
-            <h2>Low Prices, <br/>With various Pricing Plan</h2>
+            <h2>TIME BASED MEMBERShip, <br/>With various Pricing Plan</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
             <p>By keeping our prices low we can help more people to get and stay healthy. There’s a range of membership options to choose from.</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              MEMBERSHIP OPTION
-            </button>
+          <div className="flex justify-center mt-auto">
+            <ButtonLink text="MEMBERSHIP OPTION" link="/membership" />
           </div>
         </div>
         <div className="text-center my-4 space-y-4">
@@ -79,10 +79,8 @@ function Home() {
           <div className="max-w-xs mx-auto py-4">
             <p>Fully equipped, modern design gym with everything you need for a great workout, and 50+ classes each week included in your membership.</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              FIND OUT MORE
-            </button>
+          <div className="flex justify-center mt-auto">
+            <ButtonLink text="FIND OUT MORE" link="/workouts" />
           </div>
         </div>
         <div className="text-center my-4 space-y-4">
@@ -95,10 +93,8 @@ function Home() {
           <div className="max-w-xs mx-auto py-4">
             <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from your bed</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              FIND OUT MORE
-            </button>
+          <div className="flex justify-center mt-auto">
+            <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
           </div>
         </div>
         <div className="text-center my-4 space-y-4">
@@ -111,10 +107,8 @@ function Home() {
           <div className="max-w-xs mx-auto py-4">
             <p>Whether it’s support from a Personal Trainer, your expert Gym Team, our app, help is always at hand.</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              FIND OUT MORE
-            </button>
+          <div className="flex justify-center mt-auto">
+            <ButtonLink text="FIND OUT MORE" link="/contact-us" />
           </div>
         </div>
       </div>
@@ -126,9 +120,9 @@ function Home() {
         <div className="text-center text-blue-primary py-8 md:max-w-3xl">
           <h2 className="font-BebasNeue font-black text-4xl mb-4">SUPPORTING YOU EVERY STEP OF THE WAY</h2>
           <p>The Fitnesswork app lets you manage your membership from the palm of your hand. With contactless entry, access to over 600 workouts and personalised training plans. And so much more!</p>
-          <button className="mt-4 border border-blue-primary text-blue-primary px-4 py-1">
-            FIND OUT MORE
-          </button>
+          <div className="flex justify-center">
+            <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
+          </div>
         </div>
       </div>
 
@@ -203,9 +197,9 @@ function Home() {
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Free 3 sessions with <br/>Personal Trainer</p>
               </div>
               <div className="text-center py-4">
-                <button className="border border-blue-primary text-blue-primary px-4 py-1 text-lg">
-                  View More
-                </button>
+                <div className="flex justify-center">
+                  <ButtonLink text="View More" link="/membership" />
+                </div>
               </div>
             </div>
           </div>
@@ -225,9 +219,9 @@ function Home() {
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Free 3 sessions with <br/>Personal Trainer</p>
               </div>
               <div className="text-center py-4">
-                <button className="border border-blue-primary text-blue-primary px-4 py-1 text-lg">
-                  View More
-                </button>
+                <div className="flex justify-center">
+                  <ButtonLink text="View More" link="/membership" />
+                </div>
               </div>
             </div>
           </div>
@@ -238,25 +232,31 @@ function Home() {
         <h1 className="font-judul text-center text-6xl">LATEST BLOG POSTS</h1>
         <div className="container mx-auto md:flex md:flex-wrap md:justify-center">
           <div className="max-w-xs overflow-hidden mx-auto my-8">
-            <img src="/image/home/News_Example_1.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
-            <div className="p-2">
-              <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
-              <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
-            </div>
+            <Link to="/article">
+              <img src="/image/home/News_Example_1.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
+              <div className="p-2">
+                <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
+                <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
+              </div>
+            </Link>
           </div>
           <div className="max-w-xs overflow-hidden mx-auto my-8">
-            <img src="/image/home/News_Example_3.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
-            <div className="p-2">
-              <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
-              <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
-            </div>
+            <Link to="/article">
+              <img src="/image/home/News_Example_3.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
+              <div className="p-2">
+                <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
+                <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
+              </div>
+            </Link>
           </div>
           <div className="max-w-xs overflow-hidden mx-auto my-8">
-            <img src="/image/home/News_Example_2.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
-            <div className="p-2">
-              <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
-              <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
-            </div>
+            <Link to="/article">
+              <img src="/image/home/News_Example_2.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
+              <div className="p-2">
+                <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
+                <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

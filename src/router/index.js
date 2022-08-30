@@ -29,6 +29,9 @@ import BodyCombat from '../views/workouts/BodyCombat';
 import VinyasaYoga from '../views/workouts/VinyasaYoga';
 import YogaWheel from '../views/workouts/YogaWheel';
 import MembershipSelect from '../views/membership/Select';
+import FitnessworksApps from '../views/FitnessworksApps';
+import ContactUs from '../views/ContactUs';
+import PersonalTrainer from '../views/PersonalTrainer';
 
 // function WorkoutsLayout() {
   
@@ -41,7 +44,6 @@ function Router(props) {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="article" element={<Article />} />
-        <Route path="tnc" element={<Tnc />} />
         <Route path="workouts">
           <Route index element={<Workouts />} />
           <Route path="weight-lost" element={<WeightLost />} />
@@ -64,7 +66,11 @@ function Router(props) {
         <Route path="membership" >
           <Route index element={<MembershipSelect />} />
         </Route>
+        <Route path="fitnessworks-apps" element={<FitnessworksApps />} />
+        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="personal-trainer" element={<PersonalTrainer />} />
       </Route>
+
       <Route path='tnc' element={<AppLayout />} >
         <Route index element={<Tnc />} />
       </Route>

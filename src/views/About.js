@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ButtonLink from '../components/ButtonLink';
 
 function About() {
   return (
@@ -35,15 +36,13 @@ function About() {
             <img src="/image/home/Icon_1.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
           <div className="text-blue-primary font-BebasNeue text-2xl font-black">
-            <h2>Low Prices, <br/>With various Pricing Plan</h2>
+            <h2>TIME BASED MEMBERShip, <br/>With various Pricing Plan</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
             <p>By keeping our prices low we can help more people to get and stay healthy. There’s a range of membership options to choose from.</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              MEMBERSHIP OPTION
-            </button>
+          <div className="flex justify-center">
+            <ButtonLink text="MEMBERSHIP OPTION" link="/membership" />
           </div>
         </div>
         <div className="text-center my-4 space-y-4">
@@ -56,10 +55,8 @@ function About() {
           <div className="max-w-xs mx-auto py-4">
             <p>Fully equipped, modern design gym with everything you need for a great workout, and 50+ classes each week included in your membership.</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              FIND OUT MORE
-            </button>
+          <div className="flex justify-center">
+            <ButtonLink text="FIND OUT MORE" link="/workouts" />
           </div>
         </div>
         <div className="text-center my-4 space-y-4">
@@ -72,10 +69,8 @@ function About() {
           <div className="max-w-xs mx-auto py-4">
             <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from your bed</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              FIND OUT MORE
-            </button>
+          <div className="flex justify-center">
+            <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
           </div>
         </div>
         <div className="text-center my-4 space-y-4">
@@ -88,10 +83,8 @@ function About() {
           <div className="max-w-xs mx-auto py-4">
             <p>Whether it’s support from a Personal Trainer, your expert Gym Team, our app, help is always at hand.</p>
           </div>
-          <div>
-            <button className="border border-blue-primary text-blue-primary px-4 py-1">
-              FIND OUT MORE
-            </button>
+          <div className="flex justify-center">
+            <ButtonLink text="FIND OUT MORE" link="/contact-us" />
           </div>
         </div>
       </div>
@@ -104,9 +97,9 @@ function About() {
               <div className="max-w-sm text-center text-white tracking-wider">
                 <h2 className="font-BebasNeue text-2xl text-yellow-primary mb-4">Fitness Classes Included</h2>
                 <p>We’re making fitness fun with our exciting range of fitness classes.</p>
-                <button className="border border-white px-4 py-1 mt-8">
-                  VIEW MORE
-                </button>
+                <div className="flex justify-center">
+                  <ButtonLink text="VIEW MORE" link="/workouts" />
+                </div>
               </div>
             </div>
           </div>
@@ -116,9 +109,9 @@ function About() {
               <div className="max-w-sm text-center text-white tracking-wider">
                 <h2 className="font-BebasNeue text-2xl text-yellow-primary mb-4">OUR Personal TraiNER</h2>
                 <p>Wherever you are on your fitness journey, a personal trainer can help you reach your goals.</p>
-                <button className="border border-white px-4 py-1 mt-8">
-                  VIEW MORE
-                </button>
+                <div className="flex justify-center">
+                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                </div>
               </div>
             </div>
           </div>
