@@ -23,6 +23,12 @@ import ClubAndFasility from '../views/faqs/ClubAndFasility';
 import SafetyHealth from '../views/faqs/SafetyHealth';
 import Workouts from '../views/workouts/Workouts';
 import WeightLost from '../views/workouts/WeightLost';
+import Circuit from '../views/workouts/Circuit';
+import BodyPump from '../views/workouts/BodyPump';
+import BodyCombat from '../views/workouts/BodyCombat';
+import VinyasaYoga from '../views/workouts/VinyasaYoga';
+import YogaWheel from '../views/workouts/YogaWheel';
+import MembershipSelect from '../views/membership/Select';
 
 // function WorkoutsLayout() {
   
@@ -36,9 +42,14 @@ function Router(props) {
         <Route path="about" element={<About />} />
         <Route path="article" element={<Article />} />
         <Route path="tnc" element={<Tnc />} />
-        <Route path="workouts"  >
+        <Route path="workouts">
           <Route index element={<Workouts />} />
           <Route path="weight-lost" element={<WeightLost />} />
+          <Route path="circuit" element={<Circuit />} />
+          <Route path="bodypump" element={<BodyPump />} />
+          <Route path="bodycombat" element={<BodyCombat />} />
+          <Route path="vinyasa-yoga" element={<VinyasaYoga />} />
+          <Route path="yoga-wheel" element={<YogaWheel />} />
         </Route>
         <Route path="shop" element={<Shop />} />
         <Route path="membership-form" element={<MembershipForm />} />
@@ -50,6 +61,9 @@ function Router(props) {
             <Route path="safety-health" element={<SafetyHealth />} />
           </Route>
         </Route>
+        <Route path="membership" >
+          <Route index element={<MembershipSelect />} />
+        </Route>
       </Route>
       <Route path='tnc' element={<AppLayout />} >
         <Route index element={<Tnc />} />
@@ -60,8 +74,6 @@ function Router(props) {
         <Route path="our-founder" element={<OurFounder />} />
         <Route path="market-strategy" element={<MarketStrategy />} />
         <Route path="presentation" element={<Presentation />} />
-        {/* <Route path="invesment"} >
-        </Route> */}
       </Route>
 
       <Route path="confirm" element={<AppLayoutBlank />}>

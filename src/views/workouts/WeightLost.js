@@ -17,7 +17,7 @@ function WeightLost() {
               </div>
             </div>
             <div>
-              <ButtonLink text="VIEW MORE" link="/workouts" />
+              <ButtonLink text="VIEW MORE" link="/workouts/circuit" />
             </div>
           </div>
           <div className="mx-auto">
@@ -28,7 +28,7 @@ function WeightLost() {
               </div>
             </div>
             <div>
-              <ButtonLink text="VIEW MORE" link="/workouts" />
+              <ButtonLink text="VIEW MORE" link="/workouts/bodypump" />
             </div>
           </div>
           <div className="mx-auto">
@@ -39,7 +39,7 @@ function WeightLost() {
               </div>
             </div>
             <div>
-              <ButtonLink text="VIEW MORE" link="/workouts" />
+              <ButtonLink text="VIEW MORE" link="/workouts/bodycombat" />
             </div>
           </div>
           <div className="mx-auto">
@@ -50,7 +50,7 @@ function WeightLost() {
               </div>
             </div>
             <div>
-              <ButtonLink text="VIEW MORE" link="/workouts" />
+              <ButtonLink text="VIEW MORE" link="/workouts/vinyasa-yoga" />
             </div>
           </div>
           <div className="mx-auto">
@@ -61,7 +61,7 @@ function WeightLost() {
               </div>
             </div>
             <div>
-              <ButtonLink text="VIEW MORE" link="/workouts" />
+              <ButtonLink text="VIEW MORE" link="/workouts/yoga-wheel" />
             </div>
           </div>
         </div>

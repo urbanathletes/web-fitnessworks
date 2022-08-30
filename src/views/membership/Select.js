@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-function Shop() {
-
+function MembershipSelect() {
   const currency = new Intl.NumberFormat(['id']);
 
   const [getDuration] = useState([
@@ -22,10 +21,10 @@ function Shop() {
 
   return (
     <div>
-      <div className="lg:max-h-screen relative">
-        <img src="/image/shop/Header_Store.jpg" alt="Fitnesswork Presentation" className="object-cover object-center max-h-72 w-full"/>
-        <div className="text-center h-24 bg-blue-primary flex items-center">
-          <h1 className="font-judul text-4xl text-center text-white mx-auto">PRICING PLAN MEMBERSHIP</h1>
+      <div className="flex justify-center lg:max-h-screen overflow-hidden relative h-[31rem]">
+        <img src="/image/inves/OurFounder.jpg" alt="Fitnesswork Presentation" className="object-cover object-center h-full sm:min-w-full"/>
+        <div className="absolute bottom-0 left-0 right-0 flex flex-col justify-center items-center text-center h-24 bg-white bg-opacity-80">
+          <h1 className="font-judul text-5xl text-center text-blue-primary">MEMBERSHIP FITNESSWORKS</h1>
         </div>
       </div>
 
@@ -133,84 +132,9 @@ function Shop() {
           </Link>
         </div>
       </div>
-      
-      <div className="bg-neutral-100">
-        <div className="text-center h-24 bg-blue-primary flex items-center">
-          <h1 className="font-judul text-4xl text-center text-white mx-auto">PRICING PLAN MEMBERSHIP</h1>
-        </div>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 container mx-auto my-4">
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Gym_bag.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Slaves_yellow.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Gym_bag_2.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-              <div className="absolute top-0 left-0 pt-4 pl-4">
-                <p className="bg-neutral-500 text-white px-3 py-1">NEW</p>
-              </div>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Tshirt.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Mini_towel.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-              <div className="absolute top-0 left-0 pt-4 pl-4">
-                <p className="bg-neutral-500 text-white px-3 py-1">NEW</p>
-              </div>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Yoga_mat.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Gym_bag.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Slaves_yellow.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-            </div>
-          </div>
-          <div className="m-4">
-            <div className="relative w-max mx-auto">
-              <img src="/image/home/Gym_bag_2.jpg" alt="Shop" className="max-w-xs mx-auto"/>
-              <div className="absolute top-0 left-0 pt-4 pl-4">
-                <p className="bg-neutral-500 text-white px-3 py-1">NEW</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container py-4">
-        <h1 className="font-judul text-blue-primary text-4xl text-center">Available Payment</h1>
-        <div className="flex flex-wrap justify-around items-center py-4 lg:px-10">
-          <img src="/image/shop/logoBank/BNI.png" alt="BUSINESS SUPPORT" className="h-20"/>
-          <img src="/image/shop/logoBank/BRI.png" alt="BUSINESS SUPPORT" className="h-20"/>
-          <img src="/image/shop/logoBank/Gopay.png" alt="BUSINESS SUPPORT" className="h-20"/>
-          <img src="/image/shop/logoBank/Mandiri.png" alt="BUSINESS SUPPORT" className="h-20"/>
-          <img src="/image/shop/logoBank/Permata.png" alt="BUSINESS SUPPORT" className="h-20"/>
-          <img src="/image/shop/logoBank/ShopeePay.png" alt="BUSINESS SUPPORT" className="h-20"/>
-          <img src="/image/shop/logoBank/Visa.png" alt="BUSINESS SUPPORT" className="h-20"/>
-        </div>
-      </div>
 
     </div>
   )
 }
 
-export default Shop
+export default MembershipSelect
