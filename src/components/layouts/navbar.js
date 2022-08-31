@@ -49,17 +49,17 @@ function Navbar() {
                     lg:absolute lg:group-hover:h-36 lg:min-w-max lg:-left-10
                   ">
                     <ul className="mt-2 lg:bg-white lg:p-4 lg:rounded-xl">
-                      <NavLink onClick={hamburger} to="about">
+                      <NavLink onClick={hamburger} to="/about">
                         <li>
                           About Us
                         </li>
                       </NavLink>
-                      <NavLink onClick={hamburger} to="faqs">
+                      <NavLink onClick={hamburger} to="/faqs">
                         <li>
                           Faq
                         </li>
                       </NavLink>
-                      <NavLink onClick={hamburger} to="tnc">
+                      <NavLink onClick={hamburger} to="/tnc">
                         <li>
                           Term & Condition
                         </li>

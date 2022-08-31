@@ -64,7 +64,7 @@ code {
 }
 
 .font-judul {
-  @apply font-BebasNeue font-black
+  @apply font-BebasNeue font-black tracking-wide
 }
 
 .btn-active {

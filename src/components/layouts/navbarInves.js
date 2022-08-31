@@ -69,7 +69,7 @@ function Navbar() {
                 </NavLink>
               </ul>
             </div>
-            <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max">
+            <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max text-xl">
               <ButtonNav toLink="login" text="Login"/>
             </div>
           </div>

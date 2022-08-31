@@ -4,6 +4,7 @@ import AppLayout from '../components/AppLayout';
 import AppLayoutInves from '../components/AppLayoutInves';
 import AppLayoutBlank from '../components/AppLayoutBlank';
 import FaqsLayout from '../components/FaqsLayout';
+import NotFont from '../components/NotFont';
 import Home from '../views/Home';
 import About from '../views/About';
 import Article from '../views/Article';
@@ -13,7 +14,6 @@ import Investment from '../views/investment';
 import OurFounder from '../views/investment/OurFounder';
 import MarketStrategy from '../views/investment/MarketStrategy';
 import Presentation from '../views/investment/Presentation';
-import NotFont from '../views/NotFont';
 import CTnc from '../views/confirm/CTnc';
 import MembershipForm from '../views/confirm/MembershipForm';
 import Faqs from '../views/faqs';
@@ -44,6 +44,11 @@ function Router(props) {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="article" element={<Article />} />
+        <Route path="shop" element={<Shop />} />
+        <Route path="membership-form" element={<MembershipForm />} />
+        <Route path="fitnessworks-apps" element={<FitnessworksApps />} />
+        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="personal-trainer" element={<PersonalTrainer />} />
         <Route path="workouts">
           <Route index element={<Workouts />} />
           <Route path="weight-lost" element={<WeightLost />} />
@@ -53,8 +58,6 @@ function Router(props) {
           <Route path="vinyasa-yoga" element={<VinyasaYoga />} />
           <Route path="yoga-wheel" element={<YogaWheel />} />
         </Route>
-        <Route path="shop" element={<Shop />} />
-        <Route path="membership-form" element={<MembershipForm />} />
         <Route path="faqs" element={<FaqsLayout />} >
           <Route index element={<Faqs />} />
           <Route element={<FaqLayouts />}>
@@ -66,9 +69,6 @@ function Router(props) {
         <Route path="membership" >
           <Route index element={<MembershipSelect />} />
         </Route>
-        <Route path="fitnessworks-apps" element={<FitnessworksApps />} />
-        <Route path="contact-us" element={<ContactUs />} />
-        <Route path="personal-trainer" element={<PersonalTrainer />} />
       </Route>
 
       <Route path='tnc' element={<AppLayout />} >
