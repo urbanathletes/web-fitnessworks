@@ -1,6 +1,8 @@
 import React from 'react'
+import InputText from '../components/InputText'
 
 function ContactUs() {
+
   return (
     <div>
       <div className="flex justify-center lg:max-h-screen overflow-hidden relative h-96">
@@ -40,16 +42,40 @@ function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="my-4">
+        <div className="my-4 py-4">
           <form>
-            <div className="grid grid-cols-2 gap-4">
-              <label className="relative group">
-                <span className="absolute mx-2 top-2 left-0 group-focus:-top-5 group-focus:-left-3 group-focus:scale-75 transition-all duration-300">Full Name</span>
-                <input type="text" className="w-full bg-white border border-blue-primary h-10 px-2"/>
-              </label>
-              <input type="text" className="w-full bg-white border border-blue-primary"/>
+            <div className="grid grid-cols-2 gap-x-4">
+              <InputText label="Full Name" type="text" />
+              <InputText label="Email" type="email" />
+            </div>
+            <div className="space-y-6">
+              <InputText label="Subject" type="text" />
+              <textarea className="my-4 p-2 w-full outline-none border border-blue-primary" rows="5"></textarea>
+              <div className="flex justify-end">
+                <button className="border border-blue-primary py-1 px-10 w-1/2 hover:bg-blue-primary hover:text-yellow-primary transition-all duration-300 font-judul tracking-wide">Send</button>
+              </div>
             </div>
           </form>
+        </div>
+      </div>
+
+      <div className="container border-t-8 border-neutral-100 my-4 py-4 text-blue-primary text-sm">
+        <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
+          <div>
+            <h2 className="font-judul text-2xl">FITNESSWORKs CLUB A</h2>
+            <p>Jl. Tidar No.350, Tembok Dukuh, Kec. Bubutan, Kota SBY, Jawa Timur 60173</p>
+            <p>Phone : (031) 99252900</p>
+          </div>
+          <div>
+            <h2 className="font-judul text-2xl">FITNESSWORKs CLUB B</h2>
+            <p>Jl. Tidar No.350, Tembok Dukuh, Kec. Bubutan, Kota SBY, Jawa Timur 60173</p>
+            <p>Phone : (031) 99252900</p>
+          </div>
+          <div>
+            <h2 className="font-judul text-2xl">FITNESSWORKs CLUB C</h2>
+            <p>Jl. Tidar No.350, Tembok Dukuh, Kec. Bubutan, Kota SBY, Jawa Timur 60173</p>
+            <p>Phone : (031) 99252900</p>
+          </div>
         </div>
       </div>
 
