@@ -27,7 +27,7 @@ function Footer() {
                 <li><i className="mr-4 icofont-brand-whatsapp"></i> 0817 - 9188 - 880</li>
               </ul>
             </div>
-            <div className="mx-auto grid md:grid-cols-2 lg:grid-cols-4 md:ml-8 max-w-xs md:max-w-full md:w-full md:mx-0">
+            <div className="mx-auto grid md:grid-cols-2 xl:grid-cols-4 md:ml-8 max-w-xs md:max-w-full md:w-full md:mx-0">
               <div className="md:mx-auto space-y-4 py-4">
                 <h3 className="text-xl text-yellow-primary font-black">OUR GYM</h3>
                 <p>Workouts</p>

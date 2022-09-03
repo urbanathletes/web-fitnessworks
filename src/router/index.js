@@ -23,6 +23,11 @@ import ClubAndFasility from '../views/faqs/ClubAndFasility';
 import SafetyHealth from '../views/faqs/SafetyHealth';
 import Workouts from '../views/workouts/Workouts';
 import WeightLost from '../views/workouts/WeightLost';
+import Endurance from '../views/workouts/Endurance';
+import ToneMuscle from '../views/workouts/ToneMuscle';
+import Flexibility from '../views/workouts/Flexibility';
+import Strength from '../views/workouts/Strength';
+
 import Circuit from '../views/workouts/Circuit';
 import BodyPump from '../views/workouts/BodyPump';
 import BodyCombat from '../views/workouts/BodyCombat';
@@ -52,6 +57,10 @@ function Router(props) {
         <Route path="workouts">
           <Route index element={<Workouts />} />
           <Route path="weight-lost" element={<WeightLost />} />
+          <Route path="endurance" element={<Endurance/>} />
+          <Route path="tone-muscle" element={<ToneMuscle />} />
+          <Route path="flexibility" element={<Flexibility />} />
+          <Route path="strength" element={<Strength />} />
           <Route path="circuit" element={<Circuit />} />
           <Route path="bodypump" element={<BodyPump />} />
           <Route path="bodycombat" element={<BodyCombat />} />

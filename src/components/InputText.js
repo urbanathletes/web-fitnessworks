@@ -26,7 +26,7 @@ function InputText(props) {
   return (
     <div className="my-4">
       <label className="relative">
-        <span className="absolute mx-2 top-0 left-0 opacity-80 transition-all duration-300">{props.label}</span>
+        <span className="absolute mx-2 top-0 left-0 opacity-70 transition-all duration-300">{props.label}</span>
         <input type={props.type} className="w-full bg-white outline-none border border-blue-primary h-10 px-2 group-focus:bg-black" onLoad={inputLoad} onFocus={inputForm} onBlur={outInput}/>
       </label> 
     </div>

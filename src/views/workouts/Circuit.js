@@ -28,7 +28,7 @@ function Circuit() {
         </div>
       </div>
 
-      <div className="my-4 bg-neutral-100 text-blue-primary text-center place-items-center grid lg:grid-cols-2">
+      <div className="my-8 mb-12 bg-neutral-100 text-blue-primary text-center place-items-center grid lg:grid-cols-2">
         <div className="max-w-lg">
           <h3 className="my-4 font-judul text-3xl">HOW TO BOOK A CLASS</h3>
           <p>It’s so easy to book classes on Fitnesswork App or on our website by simply selecting your chosen gym and finding a class and time that suits you!</p>
