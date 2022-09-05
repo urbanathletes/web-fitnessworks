@@ -72,7 +72,7 @@ function Shop() {
         <div className="py-2">
           <h2 className="font-judul text-2xl">Durasi Membership</h2>
           <p>Pilih jangka waktu membership anda</p>
-          <div className="flex my-4">
+          <div className="flex my-4 overflow-x-auto no-scrollbar">
             {
               getDuration.map((duration) => {
                 return (
@@ -96,7 +96,7 @@ function Shop() {
         <div className="py-2">
           <h2 className="font-judul text-2xl">PERSONAL TRAINER</h2>
           <p>Dapatkan session personal trainer</p>
-          <div className="flex my-4">
+          <div className="flex my-4 overflow-x-auto no-scrollbar">
             {
               getPt.map((pt) => {
                 return (

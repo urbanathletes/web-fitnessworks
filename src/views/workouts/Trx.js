@@ -1,11 +1,11 @@
 import React from 'react'
 import ButtonLink from '../../components/ButtonLink'
 
-function YogaWheel() {
+function Trx() {
   return (
     <div>
       <div className="bg-blue-primary text-white py-8">
-        <h2 className="font-judul text-4xl text-center tracking-wide">YOGA WHEEL</h2>
+        <h2 className="font-judul text-4xl text-center tracking-wide">TRX</h2>
         <div className="container grid lg:grid-cols-2">
           <div className="border-b-2 lg:border-b-0 lg:border-r-4 border-yellow-primary lg:text-end py-4 lg:py-0 lg:my-4 lg:px-4">
             <h3 className="font-judul text-yellow-primary text-2xl tracking-wide">Fitness MENU</h3>
@@ -20,11 +20,11 @@ function YogaWheel() {
 
       <div className="my-4 text-blue-primary">
         <div className="max-h-[30rem] overflow-hidden">
-          <img src="/image/workouts/detail_kelas/Yoga_wheel.jpg" alt="YOGA WHEEL" className="mx-auto h-full w-full max-w-5xl -mb-10 object-cover object-bottom" />
+          {/* <img src="/image/workouts/detail_kelas/Yoga_wheel.jpg" alt="TRX" className="mx-auto h-full w-full max-w-5xl -mb-10 object-cover object-bottom" /> */}
         </div>
         <div className="max-w-3xl mx-auto text-center my-4">
-          <h2 className="font-judul text-4xl mb-4">YOGA WHEEL</h2>
-          <p>Warming up you back and also maintaining support system for your body with our brand new therapeutic yoga wheel. This is one of the best treatment for scoliosis therapy and re-alignment.</p>
+          <h2 className="font-judul text-4xl mb-4">TRX</h2>
+          <p>Warming up you back and also maintaining support system for your body with our brand new therapeutic TRX. This is one of the best treatment for scoliosis therapy and re-alignment.</p>
         </div>
       </div>
 
@@ -39,11 +39,11 @@ function YogaWheel() {
           </div>
         </div>
         <div>
-          <img src="/image/workouts/detail_kelas/Yoga_wheel_2.jpg" alt="YOGA WHEEL" className="h-full w-full object-cover object-center" />
+          {/* <img src="/image/workouts/detail_kelas/Yoga_wheel_2.jpg" alt="TRX" className="h-full w-full object-cover object-center" /> */}
         </div>
       </div>
     </div>
   )
 }
 
-export default YogaWheel
+export default Trx
