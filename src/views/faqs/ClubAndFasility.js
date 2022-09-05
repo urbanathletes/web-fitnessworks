@@ -34,7 +34,7 @@ function ClubAndFasility() {
         <h2 className="font-judul text-2xl">What happens if I miss a class?</h2>
         <div className="text-sm my-2">
           <p>
-          For the convenience of other members, we will impose sanctions on members who do not attend class, or arrive late. the penalty for not attending class is not being able to book a class for 24 hours. (sesuaikan dengan T&C)
+          For the convenience of other members, we will impose sanctions on members who do not attend class, or arrive late. the penalty for not attending class is not being able to book a class for 24 hours.
           </p>
         </div>
       </div>

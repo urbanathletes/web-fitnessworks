@@ -5,7 +5,7 @@ function PersonalTrainer() {
   return (
     <div>
       <div className="lg:max-h-screen relative">
-        <img src="/image/personal_trainer/Personal_trainer.jpg" alt="Fitnesswork Personal Trainer" className="object-cover object-center max-h-[30rem] w-full"/>
+        <img src="/image/personal_trainer/PT2.jpg" alt="Fitnesswork Personal Trainer" className="object-cover object-center max-h-[30rem] w-full"/>
         <div className="text-center h-24 bg-blue-primary flex items-center">
           <h1 className="font-judul text-4xl text-center text-white mx-auto">ACHIEVE YOUR GOALS WITH A PERSONAL TRAINER</h1>
         </div>
@@ -38,7 +38,7 @@ function PersonalTrainer() {
           <h2>WHY USE A PERSONAL TRAINER?</h2>
         </div>
         <div className="container text-blue-primary">
-          <img src="/image/personal_trainer/Personal_trainer_2.jpg" alt="Fitnesswork Personal Trainer" className="w-full max-w-2xl mx-auto"/>
+          <img src="/image/personal_trainer/PT1.jpg" alt="Fitnesswork Personal Trainer" className="w-full max-w-2xl mx-auto"/>
           <div className="py-8">
             <ul className="list-disc">
               <li className="my-4">

@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <div className="flex justify-center lg:max-h-screen overflow-hidden relative">
-        <img src="/image/home/Hero_Slide.jpg" alt="Fitnesswork Hero Page" className="object-cover object-center min-w-min lg:min-w-full max-h-[80vh]"/>
+        <img src="/image/Header_home.jpg" alt="Fitnesswork Hero Page" className="object-cover object-center min-w-min lg:min-w-full max-h-[80vh]"/>
         <div className="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center max-w-md mx-auto text-white text-center">
           <img src="./image/LogoFitnessworkPutih.png" alt="Fitnessworks" className="w-full" />
           <p>
@@ -17,34 +17,96 @@ function Home() {
           </button>
         </div>
       </div>
+      <div className="2xl:container bg-blue-primary px-0 md:max-h-96 relative overflow-hidden object-fill md:flex">
+        <div className="text-white w-full max-w-xl min-h-[13rem] relative md:static">
+          <div className="absolute mx-8 xl:ml-12 z-20 grid items-center h-full">
+            <div className="container">
+              <p>Get your 3 days trial, get rid all your excuses, </p>
+              <p>change now or never! Make better version of you with Fitnessworks.</p>
+              <p>#fitnessforeveryone</p>
+              <div className="text-yellow-primary my-4">
+                <ButtonLink text="GET TRIAL" link="/personal-trainer" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="relative">
+          <div className="absolute h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-blue-primary"></div>
+          <img src="/image/home/Slide2.jpg" alt="FitnessWork" className="object-cover object-center w-full h-full md:ml-auto max-w-5xl" />
+        </div>
+      </div>
 
-      <div className="py-8">
-        <h2 className="font-BebasNeue font-black text-center text-blue-primary text-4xl my-2">FIND YOUR FITNESS GOALS</h2>
+      <div className="pt-6">
+        <h2 className="font-judul text-center text-blue-primary text-5xl my-4">OUR PROGRAM</h2>
         <div className="grid md:grid-cols-2 max-w-max mx-auto">
-          <div className="relative group">
+          <div className="relative">
+            <img src="/image/personal_trainer/PT2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
+              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
+                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link below</p>
+                </div>
+                <div className="min-w-fit flex items-end">
+                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative">
             <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork"/>
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-blue-primary bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <div className="max-w-sm text-center text-white tracking-wider">
-                <h2 className="font-BebasNeue text-2xl text-yellow-primary mb-4">Fitness Classes Included</h2>
-                <p>We’re making fitness fun with our exciting range of fitness classes.</p>
-                <div className="flex justify-center">
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
+              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">FUN FITNESS CLASS WITH CERTIFIED INSTRUCTOR</h2>
+                  <p>If you like group exercise, fun, and various activities then you should booking our class. Know more our classes based on your fitness goals, click link below</p>
+                </div>
+                <div className="min-w-fit flex items-end">
                   <ButtonLink text="VIEW MORE" link="/workouts" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="relative group">
+          <div className="relative">
+            <img src="/image/home/News_Example_2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
+              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">ONLINE WORKOUTS</h2>
+                  <p>Didn’t have access to nearby gym ? Worry no more! With our online class, you can choose exercise You want. Exercise everywhere, stay safe, stay fun and Stay healthy. Get the membership Now !</p>
+                </div>
+                <div className="min-w-fit flex items-end">
+                  <ButtonLink text="VIEW MORE" link="/workouts" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative">
+            <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork"/>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
+              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">On-demand Video</h2>
+                  <p>Did you have crowded schedule? Need a flexible time to exercise yet still got the progress you want ? subscribe to our online streaming! exercise anytime, anywhere with professional guidance.</p>
+                </div>
+                <div className="min-w-fit flex items-end">
+                  <ButtonLink text="VIEW MORE" link="/workouts" />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="relative group">
             <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-blue-primary bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
               <div className="max-w-sm text-center text-white tracking-wider">
-                <h2 className="font-BebasNeue text-2xl text-yellow-primary mb-4">OUR Personal TraiNER</h2>
+                <h2 className="font-judul text-2xl text-yellow-primary mb-4">OUR Personal TraiNER</h2>
                 <p>Wherever you are on your fitness journey, a personal trainer can help you reach your goals.</p>
                 <div className="flex justify-center">
                   <ButtonLink text="VIEW MORE" link="/personal-trainer" />
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

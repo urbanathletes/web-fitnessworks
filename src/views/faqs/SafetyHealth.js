@@ -30,14 +30,14 @@ function SafetyHealth() {
           </p>
         </div>
       </div>
-      <div className="my-2 py-2 border-b-2">
+      {/* <div className="my-2 py-2 border-b-2">
         <h2 className="font-judul text-2xl">Do I get a membership card?</h2>
         <div className="text-sm my-2">
           <p>
           As a gym that carries the concept of technology, we no longer use member cards. Instead, you can download our application to register, check in, book classes, and even consult online from anywhere. by using the fitnessworks application it is possible to reduce physical contact, this is also one of our security solutions for you.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

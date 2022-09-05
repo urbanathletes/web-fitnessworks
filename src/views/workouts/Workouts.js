@@ -7,7 +7,7 @@ function Workouts() {
       <div className="flex justify-center lg:max-h-screen overflow-hidden relative">
         <img src="/image/workouts/Header_workout.jpg" alt="Fitnesswork Hero Page" className="object-cover object-center min-w-min lg:min-w-full max-h-[80vh]"/>
         <div className="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center max-w-md mx-auto text-white text-center">
-          <h1 className="font-judul text-7xl">MAKE FITNESS FUN</h1>
+          <h1 className="font-judul text-4xl sm:text-7xl">MAKE FITNESS FUN</h1>
           <ButtonLink text="VIEW MORE" link="weight-lost" />
         </div>
       </div>

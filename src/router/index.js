@@ -4,6 +4,7 @@ import AppLayout from '../components/AppLayout';
 import AppLayoutInves from '../components/AppLayoutInves';
 import AppLayoutBlank from '../components/AppLayoutBlank';
 import FaqsLayout from '../components/FaqsLayout';
+import ComingSoon from '../components/ComingSoon';
 import NotFont from '../components/NotFont';
 import Home from '../views/Home';
 import About from '../views/About';
@@ -28,6 +29,8 @@ import ToneMuscle from '../views/workouts/ToneMuscle';
 import Flexibility from '../views/workouts/Flexibility';
 import Strength from '../views/workouts/Strength';
 import StrongNation from '../views/workouts/StrongNation';
+import FitBall from '../views/workouts/FitBall';
+import Trx from '../views/workouts/Trx';
 
 import Circuit from '../views/workouts/Circuit';
 import BodyPump from '../views/workouts/BodyPump';
@@ -38,8 +41,7 @@ import MembershipSelect from '../views/membership/Select';
 import FitnessworksApps from '../views/FitnessworksApps';
 import ContactUs from '../views/ContactUs';
 import PersonalTrainer from '../views/PersonalTrainer';
-import FitBall from '../views/workouts/FitBall';
-import Trx from '../views/workouts/Trx';
+import LayoutAuth from '../components/auth/LayoutAuth';
 
 // function WorkoutsLayout() {
   
@@ -57,6 +59,9 @@ function Router(props) {
         <Route path="fitnessworks-apps" element={<FitnessworksApps />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="personal-trainer" element={<PersonalTrainer />} />
+        <Route path="time-table" element={<ComingSoon />} />
+        <Route path="online-class" element={<ComingSoon />} />
+        <Route path="virtual-class" element={<ComingSoon />} />
         <Route path="workouts">
           <Route index element={<Workouts />} />
           <Route path="weight-lost" element={<WeightLost />} />
@@ -83,6 +88,10 @@ function Router(props) {
         </Route>
         <Route path="membership" >
           <Route index element={<MembershipSelect />} />
+        </Route>
+        
+        <Route path="login">
+          <Route index element={<LayoutAuth />} />
         </Route>
       </Route>
 

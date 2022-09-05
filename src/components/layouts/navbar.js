@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ButtonNav from "../buttonNav";
 
 function Navbar() {
@@ -38,9 +38,40 @@ function Navbar() {
                 <NavLink onClick={hamburger} to="/" className="lg:px-3">
                   <li className="py-1.5">Home</li>
                 </NavLink>
-                <NavLink onClick={hamburger} to="workouts" className="lg:px-3">
+                {/* <NavLink onClick={hamburger} to="workouts" className="lg:px-3">
                   <li className="py-1.5">WorkOuts</li>
-                </NavLink>
+                </NavLink> */}
+                <li className="py-1.5 lg:px-3 group relative cursor-pointer">
+                  {/* <button>
+                  </button> */}
+                    <p>WorkOuts</p>
+                  <div className="h-0 group-hover:h-[135px] overflow-hidden transition-all duration-300
+                    lg:absolute lg:group-hover:h-44 lg:min-w-max lg:-left-10
+                  ">
+                    <ul className="mt-2 lg:bg-white lg:p-4 lg:rounded-xl">
+                      <NavLink onClick={hamburger} to="/workouts">
+                        <li>
+                          OUR PROGRAM
+                        </li>
+                      </NavLink>
+                      <NavLink onClick={hamburger} to="/time-table">
+                        <li>
+                          TIME TABLE
+                        </li>
+                      </NavLink>
+                      <NavLink onClick={hamburger} to="/online-class">
+                        <li>
+                          ONLINE CLASS
+                        </li>
+                      </NavLink>
+                      <NavLink onClick={hamburger} to="/virtual-class">
+                        <li>
+                          Virtual Class
+                        </li>
+                      </NavLink>
+                    </ul>
+                  </div>
+                </li>
                 <li className="py-1.5 lg:px-3 group relative cursor-pointer">
                   {/* <button>
                   </button> */}
@@ -77,7 +108,10 @@ function Navbar() {
             </div>
             <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max text-xl">
               <ButtonNav toLink="invesment/" text="Start Your Own GYM"/>
-              <ButtonNav toLink="login" text="LOGIN"/>
+              {/* <ButtonNav toLink="login" text="LOGIN"/> */}
+              <div className="py-1 flex justify-center items-center">
+                <Link to="login" className="bg-yellow-400 px-4 py-1 tracking-wider">LOGIN</Link>
+              </div>
             </div>
           </div>
         </div>
