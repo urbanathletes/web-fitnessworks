@@ -1,13 +1,13 @@
 import React from 'react'
 
-function NotFont() {
+function NotFond() {
   return (
     <div>
       <div className="flex justify-center items-center h-screen font-judul text-6xl text-blue-primary text-center">
-        404 - PAGE NOT FOUNT
+        404 - PAGE NOT FOUND
       </div>
     </div>
   )
 }
 
-export default NotFont
+export default NotFond

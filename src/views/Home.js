@@ -25,7 +25,7 @@ function Home() {
               <p>change now or never! Make better version of you with Fitnessworks.</p>
               <p>#fitnessforeveryone</p>
               <div className="text-yellow-primary my-4">
-                <ButtonLink text="GET TRIAL" link="/personal-trainer" />
+                <ButtonLink text="GET TRIAL" link="/form-free-trial" />
               </div>
             </div>
           </div>

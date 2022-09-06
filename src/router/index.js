@@ -3,9 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import AppLayout from '../components/AppLayout';
 import AppLayoutInves from '../components/AppLayoutInves';
 import AppLayoutBlank from '../components/AppLayoutBlank';
+import AppLayoutNotFooter from '../components/AppLayoutNotFooter';
 import FaqsLayout from '../components/FaqsLayout';
 import ComingSoon from '../components/ComingSoon';
-import NotFont from '../components/NotFont';
+import NotFond from '../components/NotFond';
+import LayoutAuth from '../components/auth/LayoutAuth';
+
 import Home from '../views/Home';
 import About from '../views/About';
 import Article from '../views/Article';
@@ -41,7 +44,7 @@ import MembershipSelect from '../views/membership/Select';
 import FitnessworksApps from '../views/FitnessworksApps';
 import ContactUs from '../views/ContactUs';
 import PersonalTrainer from '../views/PersonalTrainer';
-import LayoutAuth from '../components/auth/LayoutAuth';
+import FormFreeTrial from '../views/FormFreeTrial';
 
 // function WorkoutsLayout() {
   
@@ -89,10 +92,6 @@ function Router(props) {
         <Route path="membership" >
           <Route index element={<MembershipSelect />} />
         </Route>
-        
-        <Route path="login">
-          <Route index element={<LayoutAuth />} />
-        </Route>
       </Route>
 
       <Route path='tnc' element={<AppLayout />} >
@@ -110,7 +109,15 @@ function Router(props) {
         <Route index element={<CTnc />} />
       </Route>
       
-      <Route path="*" element={<NotFont />} />
+      <Route path="login" element={<AppLayoutNotFooter />}>
+        <Route index element={<LayoutAuth />} />
+      </Route>
+
+      <Route path="form-free-trial" element={<AppLayoutNotFooter />}>
+        <Route index element={<FormFreeTrial />} />
+      </Route>
+      
+      <Route path="*" element={<NotFond />} />
     </Routes>
   )
 }
