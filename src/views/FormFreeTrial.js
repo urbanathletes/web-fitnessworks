@@ -24,14 +24,6 @@ function FormFreeTrial() {
     console.log(inputs);
   }
 
-  function changeForm(params) {
-    params.preventDefault();
-    var login = document.querySelector('#login');
-    var singup = document.querySelector('#singup');
-    login.classList.toggle('hidden');
-    singup.classList.toggle('hidden');
-  }
-
   return (
     <div>
       <div className="w-full py-8 md:grid md:grid-cols-2 min-h-screen" style={bgPage}>

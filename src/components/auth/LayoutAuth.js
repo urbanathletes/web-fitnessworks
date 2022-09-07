@@ -40,13 +40,13 @@ function LayoutAuth() {
           <h2 className="font-judul text-4xl text-center">Log in to your Account</h2>
           <div className="my-8">
             <form onSubmit={login}>
-              <div className="py-0.5">
+              <div className="py-2">
                 <InputText label="Email" type="email" name="email" id="email"
                 value={inputs.email || ''} 
                 onChange={handleChange}
                 />
               </div>
-              <div className="py-0.5">
+              <div className="py-2">
                 <InputText label="Password" type="password" name="password" 
                   value={inputs.password || ''} 
                   onChange={handleChange} 
@@ -73,27 +73,27 @@ function LayoutAuth() {
           <h2 className="font-judul text-4xl text-center">Sign Up</h2>
           <div className="my-8">
             <form onSubmit={singup}>
-              <div className="py-0.5">
+              <div className="py-2">
                 <InputText label="Email" type="email" name="email" id="email"
                 value={inputs.email || ''} 
                 onChange={handleChange}
                 />
               </div>
-              <div className="py-0.5">
+              <div className="py-2">
                 <InputText label="Phone" type="phone" name="phone" id="phone"
                 value={inputs.phone || ''} 
                 onChange={handleChange}
                 />
               </div>
-              <div className="py-0.5">
+              <div className="py-2">
                 <InputText label="Password" type="password" name="password" 
                   value={inputs.password || ''} 
                   onChange={handleChange} 
                 />
               </div>
               <div className="py-1 flex items-center">
-                {/* <input type="checkbox" value="true" className="w-4 h-4"/>
-                <label className="text-xs pl-2">I’VE READ AND AGREE TO DATA PRIVACY POLICY.</label> */}
+                <input type="checkbox" value="true" className="w-4 h-4"/>
+                <label className="text-xs pl-2">I’VE READ AND AGREE TO DATA PRIVACY POLICY.</label>
               </div>
               <div className="my-4">
                 <button type='submit' className="border border-blue-primary py-1 w-full hover:bg-yellow-primary transition-all duration-300">Sing Up</button>

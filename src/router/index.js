@@ -45,6 +45,9 @@ import FitnessworksApps from '../views/FitnessworksApps';
 import ContactUs from '../views/ContactUs';
 import PersonalTrainer from '../views/PersonalTrainer';
 import FormFreeTrial from '../views/FormFreeTrial';
+import AppLayoutTimeTable from '../components/AppLayoutTimeTable';
+import TimeTable from '../views/TimeTable';
+import OnlineClasses from '../views/OnlineClasses';
 
 // function WorkoutsLayout() {
   
@@ -62,8 +65,13 @@ function Router(props) {
         <Route path="fitnessworks-apps" element={<FitnessworksApps />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="personal-trainer" element={<PersonalTrainer />} />
-        <Route path="time-table" element={<ComingSoon />} />
-        <Route path="online-class" element={<ComingSoon />} />
+        <Route path="time-table" element={<AppLayoutTimeTable />}>
+          <Route index element={<TimeTable />} />
+          <Route path="online-class" element={<OnlineClasses />} />
+        </Route>
+        <Route path="online-class" element={<AppLayoutTimeTable />}>
+          <Route index element={<OnlineClasses />} />
+        </Route>
         <Route path="virtual-class" element={<ComingSoon />} />
         <Route path="workouts">
           <Route index element={<Workouts />} />
