@@ -40,13 +40,34 @@ function TimeTable() {
             </tr>
           </thead>
           <tbody>
+            <tr className="h-14">
+              <td colspan="7" >
+                <div className="mx-1 border-b-2 border-yellow-primary relative">
+                  <div className="m-1 absolute -bottom-6 right-0 left-0 flex justify-center"><p className="py-1 w-36 text-center text-white bg-black">MORNING</p></div>
+                </div>
+              </td>
+            </tr>
             <tr>
               <td colspan="7">
                 <div className="grid grid-cols-7">
                   <div>
                     <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
-                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Zumba_Fitness_logo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Bodypumplogo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/STRONGNation.jpg" alt="Class"/>
                       <p>Nama instruktur</p>
                       <p>Nama Club</p>
                     </div>
@@ -60,13 +81,204 @@ function TimeTable() {
                   <div>
                     <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
-                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Bodypumplogo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/BodyCombat.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/STRONGNation.jpg" alt="Class"/>
                       <p>Nama instruktur</p>
                       <p>Nama Club</p>
                     </div>
                     <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
                       <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/logoUrbanFight.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/CIRCUIT.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/logoUrbanFight.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1 opacity-0">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/STRONGNation.jpg" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr className="h-14">
+              <td colspan="7" >
+                <div className="mx-1 border-b-2 border-yellow-primary relative">
+                  <div className="m-1 absolute -bottom-6 right-0 left-0 flex justify-center"><p className="py-1 w-36 text-center text-white bg-black">EVENING</p></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="7">
+                <div className="grid grid-cols-7">
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/BodyCombat.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/CIRCUIT.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/logoUrbanFight.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/CIRCUIT.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/STRONGNation.jpg" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/CIRCUIT.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/STRONGNation.jpg" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/STRONGNation.jpg" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Bodypumplogo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/BodyCombat.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Zumba_Fitness_logo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Bodypumplogo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/BodyCombat.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/Bodypumplogo.png" alt="Class"/>
+                      <p>Nama instruktur</p>
+                      <p>Nama Club</p>
+                    </div>
+                    <div className="py-2 bg-neutral-100 m-1">
+                      <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
+                      <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/BodyCombat.png" alt="Class"/>
                       <p>Nama instruktur</p>
                       <p>Nama Club</p>
                     </div>
