@@ -3,6 +3,24 @@ import React from 'react'
 function TimeTable() {
   return (
     <div>
+      <div className="container">
+        <div className="md:grid md:grid-cols-2 mt-4 md:gap-4 text-neutral-100">
+          <label className="inline-block px-4 py-2 w-full xl:w-96 md:mr-auto">
+            <select className="p-2 w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black">
+              <option value="" key="0">City</option>
+              <option value="City A" key="0">City A</option>
+              <option value="City B" key="0">City B</option>
+            </select>
+          </label>
+          <label className="inline-block px-4 py-2 w-full xl:w-96 md:mr-auto">
+            <select className="p-2 w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black">
+              <option value="" key="0">select our Club</option>
+              <option value="Club A" key="0">Club A</option>
+              <option value="Club B" key="0">Club B</option>
+            </select>
+          </label>
+        </div>  
+      </div>
       <div className="px-4 md:px-0 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar text-black">
         <table className="table-fixed min-w-max mx-auto text-center">
           <thead>
@@ -26,13 +44,13 @@ function TimeTable() {
               <td colspan="7">
                 <div className="grid grid-cols-7">
                   <div>
-                    <div className="py-2 bg-white m-1">
+                    <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
                       <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
                       <p>Nama instruktur</p>
                       <p>Nama Club</p>
                     </div>
-                    <div className="py-2 bg-white m-1">
+                    <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
                       <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
                       <p>Nama instruktur</p>
@@ -40,13 +58,13 @@ function TimeTable() {
                     </div>
                   </div>
                   <div>
-                    <div className="py-2 bg-white m-1">
+                    <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
                       <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
                       <p>Nama instruktur</p>
                       <p>Nama Club</p>
                     </div>
-                    <div className="py-2 bg-white m-1">
+                    <div className="py-2 bg-neutral-100 m-1">
                       <p className="bg-yellow-primary mx-1 rounded-sm">10.00 - 11.00 WIB</p>
                       <img className="h-20 p-2 mx-auto" src="/image/logo_kelas/VinyasaYoga.png" alt="Class"/>
                       <p>Nama instruktur</p>
