@@ -57,7 +57,7 @@ function News4() {
               Jika kamu mengalami lima masalah di atas mungkin bisa jadi salah satunya adalah penyebab lemak perutmu menumpuk. Namun bukan berarti tidak bisa di atasi. Dengan berada di lingkungan yang mendukung dan dengan gaya hidup yang baik akan membantumu mengatasi penumpukan lemak. Lalu bagaimana caranya?
               </p>
               <p className="text-sm sm:text-base">
-              Jika kamu mengalami lima masalah di atas mungkin bisa jadi salah satunya adalah penyebab lemak perutmu menumpuk. Namun bukan berarti tidak bisa di atasi. Dengan berada di lingkungan yang mendukung dan dengan gaya hidup yang baik akan membantumu mengatasi penumpukan lemak. Lalu bagaimana caranya?
+              Salah satu caranya adalah dengan pergi ke gym. Pergi ke gym bukan hanya soal berolahraga, namun juga tentang menemukan lingkungan yang tepat untukmu berprogress.
               </p>
             </div>
           </div>
