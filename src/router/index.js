@@ -11,7 +11,13 @@ import LayoutAuth from '../components/auth/LayoutAuth';
 
 import Home from '../views/Home';
 import About from '../views/About';
-import Article from '../views/Article';
+import Article from '../views/article/Article';
+import News1 from '../views/article/News1';
+import News2 from '../views/article/News2';
+import News3 from '../views/article/News3';
+import News4 from '../views/article/News4';
+import News5 from '../views/article/News5';
+
 import Shop from '../views/Shop';
 import Tnc from '../views/Tnc';
 import Investment from '../views/investment';
@@ -59,7 +65,14 @@ function Router(props) {
       <Route element={<AppLayout />} >
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="article" element={<Article />} />
+        <Route path="article">
+          <Route index element={<Article />} />
+          <Route path='news1' element={<News1 />} />
+          <Route path='news2' element={<News2 />} />
+          <Route path='news3' element={<News3 />} />
+          <Route path='news4' element={<News4 />} />
+          <Route path='news5' element={<News5 />} />
+        </Route>
         <Route path="shop" element={<Shop />} />
         <Route path="membership-form" element={<MembershipForm />} />
         <Route path="fitnessworks-apps" element={<FitnessworksApps />} />
