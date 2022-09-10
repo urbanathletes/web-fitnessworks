@@ -311,7 +311,7 @@ function Investment() {
           <p>Due to relatively high capex & opex in professionally managed gym, resulting high membership price, currently in Indonesia there are no professional fitness centre that can accommodate the gap of middle income society market in Indonesia. Fitnessworks business models can solve this problem by bringing low capex and low operational cost, and more affordable fitness center to the market.</p>
           <div className="mx-2 my-6">
             <Link to="/invesment">
-              <button className="py-2 px-4 bg-yellow-primary text-black hover:bg-yellow-600 font-FuturaBold transition-all duration-300" type="submit">INVESMENT NOW</button>
+              <button className="py-2 px-4 bg-yellow-primary text-black hover:bg-yellow-600 font-FuturaBold transition-all duration-300" type="submit">INVEST NOW</button>
             </Link>
           </div>
         </div>

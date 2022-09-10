@@ -20,7 +20,9 @@ function Footer() {
           <div className="md:flex md:justify-around items-center lg:items-start">
             <div className="max-w-xs mx-auto md:mx-0 space-y-4 py-4">
               <img src="/image/LogoFitnessworkPutih.png" alt="UA Footer" className="w-60" />
-              <p>Fitnessworks is a new experience in fitness. we are the first gym & fitness Centre with technology based, in Indonesia.</p>
+              <p className="text-sm font-extralight">
+                Fitnessworks is a new experience in fitness. We are the first Gym & Fitness Centre with technology & time-based membership system, in Indonesia. With technology we can provide high level facility & activity with low-cost membership plan, so everyone can join & begin their fitness journey. it is our mission to create fitness for everyone.
+              </p>
               <ul className="space-y-4">
                 <li><i className="mr-4 icofont-google-map"></i>View Location</li>
                 <li><i className="mr-4 icofont-email"></i> Info@fitnessworks.co.id</li>

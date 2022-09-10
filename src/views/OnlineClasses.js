@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonLink from '../components/ButtonLink'
 
 function OnlineClasses() {
   return (
@@ -7,7 +8,7 @@ function OnlineClasses() {
         <table className="table-fixed min-w-max mx-auto text-center">
           <thead>
             <tr className="">
-              <th colspan="7">
+              <th colSpan="7">
                 <div className="m-2 h-1"></div>
               </th>
             </tr>
@@ -23,7 +24,7 @@ function OnlineClasses() {
           </thead>
           <tbody>
             <tr>
-              <td colspan="7">
+              <td colSpan="7">
                 <div className="grid grid-cols-7">
                   <div>
                     <div className="py-2 bg-neutral-100 m-1">
@@ -128,6 +129,9 @@ function OnlineClasses() {
             </tr>
           </tbody>
         </table>
+      </div>
+      <div className="flex justify-center text-white pt-8">
+        <ButtonLink text="Book Now" link="/fitnessworks-apps" />
       </div>
     </div>
   )

@@ -7,10 +7,11 @@ function Home() {
     <div>
       <div className="flex justify-center lg:max-h-screen overflow-hidden relative">
         <img src="/image/Header_home.jpg" alt="Fitnesswork Hero Page" className="object-cover object-center min-w-min lg:min-w-full max-h-[80vh]"/>
+        <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/30"></div>
         <div className="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center max-w-md mx-auto text-white text-center">
           <img src="./image/LogoFitnessworkPutih.png" alt="Fitnessworks" className="w-full" />
           <p>
-            Get your 3 days trial, get rid all your excuses, change now or never! Make better version of you with Fitnessworks. #fitnessforeveryone
+            Fitnessworks is a new experience in fitness. We are the first Gym & Fitness Centre with technology & time-based membership system, in Indonesia. With technology we can provide high level facility & activity with low-cost membership plan, so everyone can join & begin their fitness journey. it is our mission to create fitness for everyone.
           </p>
           <button className="border border-yellow-primary px-4 py-1 my-4">
             VIEW MORE
@@ -45,7 +46,7 @@ function Home() {
               <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
-                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link below</p>
+                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
                 </div>
                 <div className="min-w-fit flex items-end">
                   <ButtonLink text="VIEW MORE" link="/personal-trainer" />
@@ -54,12 +55,12 @@ function Home() {
             </div>
           </div>
           <div className="relative">
-            <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork"/>
+            <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
               <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">FUN FITNESS CLASS WITH CERTIFIED INSTRUCTOR</h2>
-                  <p>If you like group exercise, fun, and various activities then you should booking our class. Know more our classes based on your fitness goals, click link below</p>
+                  <p>If you like group exercise, fun, and various activities then you should booking our class. Know more our classes based on your fitness goals, click link on the right</p>
                 </div>
                 <div className="min-w-fit flex items-end">
                   <ButtonLink text="VIEW MORE" link="/workouts" />
@@ -82,7 +83,7 @@ function Home() {
             </div>
           </div>
           <div className="relative">
-            <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork"/>
+            <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
               <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
                 <div className="mr-8">
@@ -117,7 +118,7 @@ function Home() {
       </div>
 
       <div className="grid sm:grid-cols-2 xl:grid-cols-4 my-4">
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_1.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
@@ -125,27 +126,31 @@ function Home() {
             <h2>TIME BASED MEMBERShip, <br/>With various Pricing Plan</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>By keeping our prices low we can help more people to get and stay healthy. There’s a range of membership options to choose from.</p>
+            <p>
+              We created the first time based membership system, in Indonesia. This system let you to choose how long you want to be in our club. You only pay while you in our club. What price you want, what exercise you need, what facility you get, all in your control, packed with our Fitnessworks Apps.
+            </p>
           </div>
-          <div className="flex justify-center mt-auto">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="MEMBERSHIP OPTION" link="/membership" />
           </div>
         </div>
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_2.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
           <div className="text-blue-primary font-BebasNeue text-2xl font-black">
-            <h2>High quality & modern design <br/>gym & Classes</h2>
+            <h2>High quality & Trendy design <br/>gym & Classes</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>Fully equipped, modern design gym with everything you need for a great workout, and 50+ classes each week included in your membership.</p>
+            <p>
+              We realize, nowdays, high quality equipment & class isn’t enough. Our trendy design will keep you exist on your social media. Furthermore, our trendy design will boosting your mood to exercise, which will support you to achieve your fitness goals.
+            </p>
           </div>
-          <div className="flex justify-center mt-auto">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/workouts" />
           </div>
         </div>
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_3.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
@@ -153,13 +158,13 @@ function Home() {
             <h2>FREE Fitnessworks APP</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from your bed</p>
+            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from</p>
           </div>
-          <div className="flex justify-center mt-auto">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
           </div>
         </div>
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_4.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
@@ -169,7 +174,7 @@ function Home() {
           <div className="max-w-xs mx-auto py-4">
             <p>Whether it’s support from a Personal Trainer, your expert Gym Team, our app, help is always at hand.</p>
           </div>
-          <div className="flex justify-center mt-auto">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/contact-us" />
           </div>
         </div>
@@ -295,28 +300,28 @@ function Home() {
         <div className="container mx-auto md:flex md:flex-wrap md:justify-center">
           <div className="max-w-xs overflow-hidden mx-auto my-8">
             <Link to="/article">
-              <img src="/image/home/News_Example_1.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
+              <img src="/image/article/news3.png" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto max-h-72"/>
               <div className="p-2">
-                <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
-                <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
+                <h2 className="font-judul text-2xl tracking-wider mb-4">Program diet untuk turunkan berat badan</h2>
+                <p>Buat kamu yang pertama kali melakukan sesuatu biasanya mengalami kebingungan dan keraguan. Apalagi ... </p>
               </div>
             </Link>
           </div>
           <div className="max-w-xs overflow-hidden mx-auto my-8">
             <Link to="/article">
-              <img src="/image/home/News_Example_3.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
+              <img src="/image/article/news1.png" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto max-h-72"/>
               <div className="p-2">
-                <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
-                <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
+                <h2 className="font-judul text-2xl tracking-wider mb-4">Apa penyebab lemak perut</h2>
+                <p>Lemak perut memang menjengkelkan. Apalagi kalau sudah merusak penampilan dan jadi membatasi ruang ... </p>
               </div>
             </Link>
           </div>
           <div className="max-w-xs overflow-hidden mx-auto my-8">
             <Link to="/article">
-              <img src="/image/home/News_Example_2.jpg" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto"/>
+              <img src="/image/article/news5.png" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto max-h-72"/>
               <div className="p-2">
-                <h2 className="font-judul text-2xl tracking-wider mb-4">Example of article title</h2>
-                <p>Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment.</p>
+                <h2 className="font-judul text-2xl tracking-wider mb-4">Program diet untuk turunkan berat badan</h2>
+                <p>Terkadang untuk menurunkan berat badan, olahraga saja tidak cukup. Beberapa orang, mungkin ... </p>
               </div>
             </Link>
           </div>

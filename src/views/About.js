@@ -27,11 +27,11 @@ function About() {
       </div>
       
       <div className="container mx-auto max-w-2xl text-center my-8 text-blue-primary">
-        <h1 className="font-judul text-5xl py-4">QUALITY, AFFORDABLE GYMS, EVERYWHERE</h1>
-        <p>We’re committed to bringing high quality, affordable gyms to everyone, everywhere. We do this by keeping our prices, low, making it as easy to leave as it is to join, opening our gyms night and day and providing our members with the support and inspiration they need where and when they need it.</p>
+        <h1 className="font-judul text-5xl py-4">QUALITY, AFFORDABLE GYMS, & TRENDY DESIGN</h1>
+        <p>We’re committed to bringing high quality facilities, yet affordable gyms to everyone. As we know high quality facilities isn’t enough. We provide you with trendy design and instagramable. Our trendy design keep you exist on your social media. Furthermore, our trendy design will boosting your mood to exercise, which will support you to achieve your fitness goals.</p>
       </div>
       <div className="grid sm:grid-cols-2 xl:grid-cols-4 my-4">
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_1.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
@@ -39,27 +39,31 @@ function About() {
             <h2>TIME BASED MEMBERShip, <br/>With various Pricing Plan</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>By keeping our prices low we can help more people to get and stay healthy. There’s a range of membership options to choose from.</p>
+            <p>
+              We created the first time based membership system, in Indonesia. This system let you to choose how long you want to be in our club. You only pay while you in our club. What price you want, what exercise you need, what facility you get, all in your control, packed with our Fitnessworks Apps.
+            </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="MEMBERSHIP OPTION" link="/membership" />
           </div>
         </div>
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_2.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
           <div className="text-blue-primary font-BebasNeue text-2xl font-black">
-            <h2>High quality & modern design <br/>gym & Classes</h2>
+            <h2>High quality & Trendy design <br/>gym & Classes</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>Fully equipped, modern design gym with everything you need for a great workout, and 50+ classes each week included in your membership.</p>
+            <p>
+              We realize, nowdays, high quality equipment & class isn’t enough. Our trendy design will keep you exist on your social media. Furthermore, our trendy design will boosting your mood to exercise, which will support you to achieve your fitness goals.
+            </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/workouts" />
           </div>
         </div>
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_3.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
@@ -67,13 +71,13 @@ function About() {
             <h2>FREE Fitnessworks APP</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from your bed</p>
+            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from</p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
           </div>
         </div>
-        <div className="text-center my-4 space-y-4">
+        <div className="text-center my-4 space-y-4 relative pb-16">
           <div>
             <img src="/image/home/Icon_4.png" alt="FW Icon" className="mx-auto w-28"/>
           </div>
@@ -83,13 +87,13 @@ function About() {
           <div className="max-w-xs mx-auto py-4">
             <p>Whether it’s support from a Personal Trainer, your expert Gym Team, our app, help is always at hand.</p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/contact-us" />
           </div>
         </div>
       </div>
 
-      <div className="py-8">
+      {/* <div className="py-8">
         <div className="grid md:grid-cols-2 max-w-max mx-auto">
           <div className="relative group">
             <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork"/>
@@ -116,7 +120,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="lg:flex lg:justify-center lg:items-center my-4 lg:container mx-auto">
         <div>

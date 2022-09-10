@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonLink from '../components/ButtonLink'
 
 function TimeTable() {
   return (
@@ -8,15 +9,15 @@ function TimeTable() {
           <label className="inline-block px-4 py-2 w-full xl:w-96 md:mr-auto">
             <select className="p-2 w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black">
               <option value="" key="0">City</option>
-              <option value="City A" key="0">City A</option>
-              <option value="City B" key="0">City B</option>
+              <option value="City A" key="">City A</option>
+              <option value="City B" key="1">City B</option>
             </select>
           </label>
           <label className="inline-block px-4 py-2 w-full xl:w-96 md:mr-auto">
             <select className="p-2 w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black">
               <option value="" key="0">select our Club</option>
-              <option value="Club A" key="0">Club A</option>
-              <option value="Club B" key="0">Club B</option>
+              <option value="Club A" key="">Club A</option>
+              <option value="Club B" key="1">Club B</option>
             </select>
           </label>
         </div>  
@@ -25,7 +26,7 @@ function TimeTable() {
         <table className="table-fixed min-w-max mx-auto text-center">
           <thead>
             <tr className="">
-              <th colspan="7">
+              <th colSpan="7">
                 <div className="m-2 h-1"></div>
               </th>
             </tr>
@@ -41,14 +42,14 @@ function TimeTable() {
           </thead>
           <tbody>
             <tr className="h-14">
-              <td colspan="7" >
+              <td colSpan="7" >
                 <div className="mx-1 border-b-2 border-yellow-primary relative">
                   <div className="m-1 absolute -bottom-6 right-0 left-0 flex justify-center"><p className="py-1 w-36 text-center text-white bg-black">MORNING</p></div>
                 </div>
               </td>
             </tr>
             <tr>
-              <td colspan="7">
+              <td colSpan="7">
                 <div className="grid grid-cols-7">
                   <div>
                     <div className="py-2 bg-neutral-100 m-1">
@@ -152,14 +153,14 @@ function TimeTable() {
               </td>
             </tr>
             <tr className="h-14">
-              <td colspan="7" >
+              <td colSpan="7" >
                 <div className="mx-1 border-b-2 border-yellow-primary relative">
                   <div className="m-1 absolute -bottom-6 right-0 left-0 flex justify-center"><p className="py-1 w-36 text-center text-white bg-black">EVENING</p></div>
                 </div>
               </td>
             </tr>
             <tr>
-              <td colspan="7">
+              <td colSpan="7">
                 <div className="grid grid-cols-7">
                   <div>
                     <div className="py-2 bg-neutral-100 m-1">
@@ -288,6 +289,9 @@ function TimeTable() {
             </tr>
           </tbody>
         </table>
+      </div>
+      <div className="flex justify-center text-white pt-8">
+        <ButtonLink text="Book Now" link="/fitnessworks-apps" />
       </div>
     </div>
   )
