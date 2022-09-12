@@ -43,7 +43,7 @@ function Home() {
           <div className="relative">
             <img src="/image/personal_trainer/PT2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
-              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
                   <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
@@ -57,7 +57,7 @@ function Home() {
           <div className="relative">
             <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
-              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">FUN FITNESS CLASS WITH CERTIFIED INSTRUCTOR</h2>
                   <p>If you like group exercise, fun, and various activities then you should booking our class. Know more our classes based on your fitness goals, click link on the right</p>
@@ -71,7 +71,7 @@ function Home() {
           <div className="relative">
             <img src="/image/home/News_Example_2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
-              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">ONLINE WORKOUTS</h2>
                   <p>Didn’t have access to nearby gym ? Worry no more! With our online class, you can choose exercise You want. Exercise everywhere, stay safe, stay fun and Stay healthy. Get the membership Now !</p>
@@ -85,7 +85,7 @@ function Home() {
           <div className="relative">
             <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
-              <div className="text-white text-sm flex justify-between items-end h-full mx-8 pb-8">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">On-demand Video</h2>
                   <p>Did you have crowded schedule? Need a flexible time to exercise yet still got the progress you want ? subscribe to our online streaming! exercise anytime, anywhere with professional guidance.</p>
@@ -158,7 +158,7 @@ function Home() {
             <h2>FREE Fitnessworks APP</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from</p>
+            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from anywhere and anytime</p>
           </div>
           <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
@@ -302,7 +302,7 @@ function Home() {
             <Link to="/article">
               <img src="/image/article/news3.png" alt="LATEST BLOG POSTS" className="object-cover object-center min-w-min mx-auto max-h-72"/>
               <div className="p-2">
-                <h2 className="font-judul text-2xl tracking-wider mb-4">Program diet untuk turunkan berat badan</h2>
+                <h2 className="font-judul text-2xl tracking-wider mb-4">5 hal yang perlu kamu siapkan sebelum pertama kali pergi ke gym?</h2>
                 <p>Buat kamu yang pertama kali melakukan sesuatu biasanya mengalami kebingungan dan keraguan. Apalagi ... </p>
               </div>
             </Link>

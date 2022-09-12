@@ -10,7 +10,9 @@ function About() {
 
       <div className="container mx-auto max-w-2xl text-center my-8 text-blue-primary">
         <h1 className="font-judul text-5xl py-4">FITNESSWORKS DIFFERENCE</h1>
-        <p>As Indonesia’s favorite fitness center, we are here to help more people in more places live healthier lives every day.</p>
+        <p>
+          We are the first Gym & Fitness Centre with technology & time-based membership system, in Indonesia. Packed with Fitnessworks App, our great new features ensure you’re able to manage your membership from the palm of your hand. Such as, contactless check in & Check out, time based membership plan, class booking, PT booking, and many more!
+        </p>
       </div>
       <div className="my-4 lg:flex lg:justify-center lg:items-center lg:space-x-4 bg-neutral-100">
         <div className="max-w-2xl mx-auto lg:mx-0">
@@ -71,7 +73,7 @@ function About() {
             <h2>FREE Fitnessworks APP</h2>
           </div>
           <div className="max-w-xs mx-auto py-4">
-            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from</p>
+            <p>Our top rated, free app features a personalised workout tracking for every member. you can buy or upgrade membership everywhere & anytime you need. Booking your class and PT appointment from anywhere and anytime</p>
           </div>
           <div className="flex justify-center absolute bottom-0 right-0 left-0">
             <ButtonLink text="FIND OUT MORE" link="/fitnessworks-apps" />
