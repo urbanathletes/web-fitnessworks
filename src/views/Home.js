@@ -8,7 +8,7 @@ function Home() {
       <div className="flex justify-center lg:max-h-screen overflow-hidden relative">
         <img src="/image/Header_home.jpg" alt="Fitnesswork Hero Page" className="object-cover object-center min-w-min lg:min-w-full max-h-[80vh]"/>
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/30"></div>
-        <div className="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center max-w-md mx-auto text-white text-center">
+        <div className="container absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center max-w-md mx-auto text-white text-center">
           <img src="./image/LogoFitnessworkPutih.png" alt="Fitnessworks" className="w-full" />
           <p>
             Fitnessworks is a new experience in fitness. We are the first Gym & Fitness Centre with technology & time-based membership system, in Indonesia. With technology we can provide high level facility & activity with low-cost membership plan, so everyone can join & begin their fitness journey. it is our mission to create fitness for everyone.
@@ -22,9 +22,10 @@ function Home() {
         <div className="text-white w-full max-w-xl min-h-[13rem] relative md:static">
           <div className="absolute mx-8 xl:ml-12 z-20 grid items-center h-full">
             <div className="container">
-              <p>Get your 3 days trial, get rid all your excuses, </p>
+              <p>START NOW FOR FREE ! be a better version of you, NO EXCUSES !</p>
+              {/* <p>Get your 3 days trial, get rid all your excuses, </p>
               <p>change now or never! Make better version of you with Fitnessworks.</p>
-              <p>#fitnessforeveryone</p>
+              <p>#fitnessforeveryone</p> */}
               <div className="text-yellow-primary my-4">
                 <ButtonLink text="GET TRIAL" link="/form-free-trial" />
               </div>
@@ -40,9 +41,12 @@ function Home() {
       <div className="pt-6">
         <h2 className="font-judul text-center text-blue-primary text-5xl my-4">OUR PROGRAM</h2>
         <div className="grid md:grid-cols-2 max-w-max mx-auto">
-          <div className="relative">
-            <img src="/image/personal_trainer/PT2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
+          <div className="relative bg-blue-primary">
+            <div className="relative h-72 xl:h-full">
+              <img src="/image/personal_trainer/PT2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
+              <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary"></div>
+            </div>
+            <div className="xl:absolute top-0 bottom-0 left-0 right-0">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
@@ -54,7 +58,59 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative bg-blue-primary">
+            <div className="relative h-72 xl:h-full">
+              <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
+              <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary"></div>
+            </div>
+            <div className="xl:absolute top-0 bottom-0 left-0 right-0">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
+                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                </div>
+                <div className="min-w-fit flex items-end">
+                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative bg-blue-primary">
+            <div className="relative h-72 xl:h-full">
+              <img src="/image/home/News_Example_2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
+              <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary"></div>
+            </div>
+            <div className="xl:absolute top-0 bottom-0 left-0 right-0">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
+                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                </div>
+                <div className="min-w-fit flex items-end">
+                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative bg-blue-primary">
+            <div className="relative h-72 xl:h-full">
+              <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
+              <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary"></div>
+            </div>
+            <div className="xl:absolute top-0 bottom-0 left-0 right-0">
+              <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
+                <div className="mr-8">
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
+                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                </div>
+                <div className="min-w-fit flex items-end">
+                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="relative">
             <img src="/image/home/Photo_classes.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
@@ -67,8 +123,8 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="relative">
+          </div> */}
+          {/* <div className="relative">
             <img src="/image/home/News_Example_2.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
@@ -81,8 +137,8 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="relative">
+          </div> */}
+          {/* <div className="relative">
             <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork" className="w-full h-full object-cover object-center"/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-blue-primary">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
@@ -92,18 +148,6 @@ function Home() {
                 </div>
                 <div className="min-w-fit flex items-end">
                   <ButtonLink text="VIEW MORE" link="/workouts" />
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div className="relative group">
-            <img src="/image/home/Photo_pt.jpg" alt="Fitnesswork"/>
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-blue-primary bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <div className="max-w-sm text-center text-white tracking-wider">
-                <h2 className="font-judul text-2xl text-yellow-primary mb-4">OUR Personal TraiNER</h2>
-                <p>Wherever you are on your fitness journey, a personal trainer can help you reach your goals.</p>
-                <div className="flex justify-center">
-                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
                 </div>
               </div>
             </div>
@@ -259,6 +303,7 @@ function Home() {
                 <p>RP</p><p className="text-4xl font-black mx-2">248.000</p><p className="mt-auto">All Club / Month</p>
               </div>
               <div className="ml-8 text-lg py-4">
+                <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Check in start from 06.00 WIB</p>
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Free Access All Class</p>
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Get Gym Bag</p>
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Free 3 sessions with <br/>Personal Trainer</p>
@@ -281,6 +326,7 @@ function Home() {
                 <p>RP</p><p className="text-4xl font-black mx-2">278.000</p><p className="mt-auto">All Club / Month</p>
               </div>
               <div className="ml-8 text-lg py-4">
+                <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Check in start from 15.00 WIB</p>
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Free Access All Class</p>
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Get Gym Bag</p>
                 <p className="-indent-8"><span className="text-2xl mr-2">&#9745;</span> Free 3 sessions with <br/>Personal Trainer</p>
