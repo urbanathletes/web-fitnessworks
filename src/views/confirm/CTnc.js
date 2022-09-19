@@ -8,7 +8,7 @@ function CTnc() {
     let checkBox = document.getElementById('checkBox')
     if (checkBox.checked) {
       console.log(checkBox);
-      navigate('/membership-form')
+      navigate('/fitnessworks-apps')
     }
   }
 
@@ -93,7 +93,7 @@ function CTnc() {
            Saya telah membaca dan menyetujui peraturan berlaku
         </label>
         <div className="my-6 text-center">
-          <button onClick={btnTnc} className="py-2 px-8 text-blue-primary border border-blue-primary">Lanjut ke formulir Membership</button>
+          <button onClick={btnTnc} className="py-2 px-8 text-blue-primary border border-blue-primary">Lanjut ke Membership</button>
         </div>
       </div>
     </div>

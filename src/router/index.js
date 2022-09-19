@@ -86,6 +86,7 @@ function Router(props) {
           <Route index element={<OnlineClasses />} />
         </Route>
         <Route path="virtual-class" element={<ComingSoon />} />
+        <Route path="on-demand" element={<ComingSoon />} />
         <Route path="workouts">
           <Route index element={<Workouts />} />
           <Route path="weight-lost" element={<WeightLost />} />

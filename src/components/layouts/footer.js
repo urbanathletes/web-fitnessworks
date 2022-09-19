@@ -1,6 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
+
+  function atas() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
   return (
     <div>
       <div className="bg-blue-primary text-white font-Poppins pt-4 pb-8 text-base">
@@ -26,30 +33,34 @@ function Footer() {
               <ul className="space-y-4">
                 <li><i className="mr-4 icofont-google-map"></i>View Location</li>
                 <li><i className="mr-4 icofont-email"></i> Info@fitnessworks.co.id</li>
-                <li><i className="mr-4 icofont-brand-whatsapp"></i> 0817 - 9188 - 880</li>
+                <li>
+                  <a href="https://wa.me/628179288880" target="_blank" rel="noreferrer">
+                    <i className="mr-4 icofont-brand-whatsapp"></i> 0817 - 9188 - 880
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="mx-auto grid md:grid-cols-2 xl:grid-cols-4 md:ml-8 max-w-xs md:max-w-full md:w-full md:mx-0">
               <div className="md:mx-auto space-y-4 py-4">
                 <h3 className="text-xl text-yellow-primary font-black">OUR GYM</h3>
-                <p>Workouts</p>
-                <p>Personal Trainer</p>
+                <p><Link to="/workouts" onClick={atas}>Workouts</Link></p>
+                <p><Link to="/personal-trainer" onClick={atas}>Personal Trainer</Link></p>
               </div>
               <div className="md:mx-auto space-y-4 py-4">
                 <h3 className="text-xl text-yellow-primary font-black">COMPANY</h3>
-                <p>About Us</p>
-                <p>Mobile Apps</p>
-                <p>Presentation</p>
-                <p>Partnership</p>
+                <p><Link to="/about" onClick={atas}>About Us</Link></p>
+                <p><Link to="/fitnessworks-apps" onClick={atas}>Mobile Apps</Link></p>
+                <p><Link to="/" onClick={atas}>Presentation</Link></p>
+                <p><Link to="/#partnership">Partnership</Link></p>
               </div>
               <div className="md:mx-auto space-y-4 py-4">
                 <h3 className="text-xl text-yellow-primary font-black">STORE</h3>
-                <p>Membership</p>
-                <p>Training Equipment <br/> & Merchandise</p>
+                <p><Link to="/fitnessworks-apps" onClick={atas}>Membership</Link></p>
+                <p><Link to="/personal-trainer" onClick={atas}>Training Equipment <br/> & Merchandise</Link></p>
               </div>
               <div className="md:mx-auto space-y-4 py-4">
                 <h3 className="text-xl text-yellow-primary font-black">GET ASSISTANCE</h3>
-                <p>Help & Contact</p>
+                <p><Link to="/contact-us" onClick={atas}>Help & Contact</Link></p>
                 <p>Instagram</p>
                 <p>Facebook</p>
                 <p>Youtube</p>

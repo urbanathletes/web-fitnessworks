@@ -2,9 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function ButtonLink(props) {
+
+  function scrollTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
   return (
     <>
-      <Link to={props.link}>
+      <Link to={props.link} onClick={scrollTop}>
         <button className="flex py-1 my-4 border border-yellow-primary group z-10 relative overflow-hidden hover:border-blue-primary hover:text-blue-primary transition-all duration-300">
           <p className="font-judul px-4 border-r border-yellow-primary group-hover:border-blue-primary transition-all duration-300">
             {props.text}

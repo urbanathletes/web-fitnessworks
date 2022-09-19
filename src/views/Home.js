@@ -50,7 +50,7 @@ function Home() {
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
                   <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
-                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click View More</p>
                 </div>
                 <div className="min-w-fit flex items-end">
                   <ButtonLink text="VIEW MORE" link="/personal-trainer" />
@@ -66,11 +66,11 @@ function Home() {
             <div className="xl:absolute top-0 bottom-0 left-0 right-0">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
-                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
-                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">FUN FITNESS CLASS WITH CERTIFIED INSTRUCTOR</h2>
+                  <p>If you like group exercise, fun, and various activities then you should booking our class. Know more our classes based on your fitness goals, click link on the right</p>
                 </div>
                 <div className="min-w-fit flex items-end">
-                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                  <ButtonLink text="VIEW MORE" link="/workouts" />
                 </div>
               </div>
             </div>
@@ -83,11 +83,11 @@ function Home() {
             <div className="xl:absolute top-0 bottom-0 left-0 right-0">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
-                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
-                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">ONLINE WORKOUTS</h2>
+                  <p>Didn’t have access to nearby gym ? Worry no more! With our online class, you can choose exercise You want. Exercise everywhere, stay safe, stay fun and Stay healthy. Get the membership Now !</p>
                 </div>
                 <div className="min-w-fit flex items-end">
-                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                  <ButtonLink text="VIEW MORE" link="/online-class" />
                 </div>
               </div>
             </div>
@@ -100,11 +100,11 @@ function Home() {
             <div className="xl:absolute top-0 bottom-0 left-0 right-0">
               <div className="text-white text-xs xl:text-sm grid md:flex justify-between items-end h-full mx-4 xl:mx-8 pb-8">
                 <div className="mr-8">
-                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">PROFESSIONAL PERSONAL TRAINER</h2>
-                  <p>If you want real result, progressive and personalised exercise, we recommend you to choose this program. Our professional Personal Trainer will guide you to your body goals. Want to know more? Click link on the right</p>
+                  <h2 className="font-judul text-2xl text-yellow-primary mb-4">On-demand Video</h2>
+                  <p>Did you have crowded schedule? Need a flexible time to exercise yet still got the progress you want ? subscribe to our online streaming! exercise anytime, anywhere with professional guidance.</p>
                 </div>
                 <div className="min-w-fit flex items-end">
-                  <ButtonLink text="VIEW MORE" link="/personal-trainer" />
+                  <ButtonLink text="VIEW MORE" link="/on-demand" />
                 </div>
               </div>
             </div>
@@ -374,7 +374,7 @@ function Home() {
         </div>
       </div>
 
-      <div>
+      <div id='partnership'>
         <div className="text-center">
           <p className="font-judul text-2xl">UNPARALLELED</p>
           <h2 className='font-judul text-6xl text-blue-primary'>BUSINESS SUPPORT</h2>
@@ -384,7 +384,7 @@ function Home() {
           <img src="/image/logo/URBAN-LOGO_JR_HIRES.png" alt="BUSINESS SUPPORT" className="h-20 m-4"/>
           <img src="/image/logo/URBAN-FALCON FINAL-TM.png" alt="BUSINESS SUPPORT" className="h-20 m-4"/>
           <img src="/image/logo/Valor_TM.png" alt="BUSINESS SUPPORT" className="h-20 m-4"/>
-          <img src="/image/logo/LogoFitnessworkPanjang.png" alt="BUSINESS SUPPORT" className="h-20 m-4"/>
+          <img src="/image/logo/LogoFitnessworkPanjang.png" alt="BUSINESS SUPPORT" className="h-12 m-4"/>
           <img src="/image/logo/CIRCUIT.png" alt="BUSINESS SUPPORT" className="h-20 m-4"/>
         </div>
       </div>
