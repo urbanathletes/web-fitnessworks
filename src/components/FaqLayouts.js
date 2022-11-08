@@ -5,8 +5,8 @@ function FaqLayouts() {
   return (
     <>
       <div className="container lg:flex lg:flex-row-reverse">
-        <div className="w-96 font-judul tracking-wide my-4 mx-8 lg:mx-0">
-          <div className="bg-neutral-100 mr-auto inline-block py-4 pl-4 pr-8">
+        <div className="w-full lg:w-96 font-judul tracking-wide my-4 mx-8 lg:mx-0">
+          <div className="bg-neutral-100 mr-auto inline-block py-4 pl-4 pr-8 w-full text-2xl">
             <div className="flex">
               <h2 className="text-blue-primary border-b-2 border-blue-primary">More Support Topic</h2>
             </div>

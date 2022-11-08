@@ -107,10 +107,10 @@ function Navbar() {
               </ul>
             </div>
             <div className="font-black sm:flex sm:justify-around lg:space-x-4 lg:min-w-max text-xl">
-              <ButtonNav toLink="invesment/" text="Start Your Own GYM"/>
+              <ButtonNav toLink="/invesment" text="Start Your Own GYM"/>
               {/* <ButtonNav toLink="login" text="LOGIN"/> */}
               <div className="py-1 flex justify-center items-center">
-                <Link to="login" className="bg-yellow-400 px-4 py-0.5 tracking-wider">LOGIN</Link>
+                <Link to="/login" className="bg-yellow-400 px-4 py-0.5 tracking-wider">LOGIN</Link>
               </div>
             </div>
           </div>
