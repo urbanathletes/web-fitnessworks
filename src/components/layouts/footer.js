@@ -12,7 +12,8 @@ function Footer() {
     <div>
       <div className="bg-blue-primary text-white font-Poppins pt-4 pb-8 text-base">
         <div className="text-center font-BebasNeue tracking-widest text-lg my-2">
-          <p><i className="icofont-instagram"></i> Follow US ON @FITNESSWORKS.ID</p>
+          {/* <p><i className="icofont-instagram"></i> Follow US ON @FITNESSWORKS.ID</p> */}
+          <p><i className="icofont-instagram"></i> <a href="https://www.instagram.com/fitnessworks.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Follow US ON @FITNESSWORKS.ID</a></p>
         </div>
         <div className="py-4 flex justify-start xl:justify-center overflow-x-auto no-scrollbar">
           <img src="/image/Footer/Footer_1.jpg" alt="UA Footer" className="w-60" />
@@ -61,7 +62,8 @@ function Footer() {
               <div className="md:mx-auto space-y-4 py-4">
                 <h3 className="text-xl text-yellow-primary font-black">GET ASSISTANCE</h3>
                 <p><Link to="/contact-us" onClick={atas}>Help & Contact</Link></p>
-                <p>Instagram</p>
+                {/* <p>Instagram</p> */}
+                <p><a href="https://www.instagram.com/fitnessworks.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a> </p>
                 <p>Facebook</p>
                 <p>Youtube</p>
               </div>
