@@ -16,8 +16,7 @@ function Modal({ isOpen, closeModal }) {
           <a
             href="https://form.fitnessworks.co.id/99k"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               src="/image/home/promo_99.png"
               alt="Popup"
